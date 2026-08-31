@@ -50,6 +50,56 @@
         "url": "/clinics/pervaya-semeynaya-peterburga/waiting.webp",
         "caption": "Зона ожидания"
       }
+    ],
+    "cl-ооо-первая-семейная-клиника-на-коломяжском": [
+      {
+        "url": "/clinics/pervaya-semeynaya-kolomyazhsky/building.jpg",
+        "caption": "Здание клиники на Коломяжском проспекте"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-kolomyazhsky/hall.jpg",
+        "caption": "Холл"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-kolomyazhsky/corridor.jpg",
+        "caption": "Коридор к кабинетам"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-kolomyazhsky/room.jpg",
+        "caption": "Кабинет"
+      }
+    ],
+    "cl-ооо-первая-семейная-клиника-на-гражданском": [
+      {
+        "url": "/clinics/pervaya-semeynaya-grazhdansky/entrance.jpg",
+        "caption": "Вход со стороны Гражданского проспекта"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-grazhdansky/ramp.jpg",
+        "caption": "Вход с пандусом"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-grazhdansky/reception.jpg",
+        "caption": "Ресепшен"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-grazhdansky/room.jpg",
+        "caption": "Кабинет"
+      }
+    ],
+    "cl-ооо-первая-семейная-клиника-на-международной": [
+      {
+        "url": "/clinics/pervaya-semeynaya-mezhdunarodnaya/entrance.jpg",
+        "caption": "Вход с вывеской"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-mezhdunarodnaya/door.jpg",
+        "caption": "Вход в клинику"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-mezhdunarodnaya/facade.jpg",
+        "caption": "Фасад со стороны улицы Белы Куна"
+      }
     ]
   },
   "clinicYandex": {
