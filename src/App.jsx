@@ -221,7 +221,12 @@ export default function App() {
   return (
     <div className="flex h-full flex-col">
       <main className="min-h-0 flex-1 overflow-hidden">
-        <div className="mx-auto grid h-full max-w-[1800px] gap-4 p-4 xl:grid-cols-[280px_minmax(0,1fr)_420px] lg:grid-cols-[260px_minmax(0,1fr)] md:grid-cols-[240px_minmax(0,1fr)] grid-cols-1">
+        {/* Три колонки — фильтры, карта, список — держатся вместе на любом
+            ноутбуке. Раньше ниже 1280 px список срывался под фильтры: на
+            средних ширинах колонок было всего две. Теперь ужимаются сами
+            колонки, а не их число; в один столбец складывается только
+            на телефоне. */}
+        <div className="mx-auto grid h-full max-w-[1800px] grid-cols-1 gap-4 p-4 md:grid-cols-[200px_minmax(0,1fr)_300px] md:gap-3 lg:grid-cols-[230px_minmax(0,1fr)_350px] lg:gap-4 xl:grid-cols-[280px_minmax(0,1fr)_420px]">
           <Sidebar
             catalog={catalog}
             cities={metroData.cities}
