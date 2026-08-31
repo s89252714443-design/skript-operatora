@@ -178,11 +178,7 @@ export default function MapView({ rows, origin, cityId, selectedKey, onSelect, o
       const el = document.createElement('div')
       el.innerHTML = pillHtml(r, i, r.key === selectedKey)
       const d = formatDistance(r.distanceMeters)
-      const cost = r.clinicService.avgCaseCost
-      el.title =
-        `${clinic.name}\n${clinic.address}` +
-        (d ? `\n${d} по прямой` : '') +
-        (cost != null ? `\nСредняя стоимость кейса: ${cost.toLocaleString('ru-RU')} ₽` : '')
+      el.title = `${clinic.name}\n${clinic.address}` + (d ? `\n${d} по прямой` : '')
       const marker = new maplibregl.Marker({ element: el, anchor: 'bottom' })
         .setLngLat([clinic.lng, clinic.lat])
         .addTo(map)

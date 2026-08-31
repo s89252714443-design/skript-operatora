@@ -2,11 +2,15 @@
 
 import { haversine } from './metro.js'
 
+// Стоимости в весах нет намеренно. Цену мы нигде не показываем — ни в списке,
+// ни на карте, ни в карточке, ни в сообщении. Сортировать по числу, которого
+// оператор не видит, значит делать порядок выдачи необъяснимым: две клиники
+// рядом, одна выше, и почему — понять неоткуда. Освободившийся вес отдан
+// расстоянию, единственному, что видно на экране прямо.
 export const WEIGHTS = {
   tier: 0.35, // приоритет отдела (A/B/C)
-  geo: 0.3, // расстояние от выбранной точки
+  geo: 0.45, // расстояние от выбранной точки
   slot: 0.2, // как скоро свободное окно
-  cost: 0.15, // средняя стоимость кейса относительно других
 }
 
 // За этим расстоянием близость перестаёт что-либо решать
@@ -129,7 +133,6 @@ export function findOptions({ catalog, origin, graph, cityId, variantId, filters
       ownStation,
       slotDays,
       slotKnown,
-      costKnown: cs.avgCaseCost != null,
       stationApproximate: stations.some((s) => s.approximate),
       stations,
       doctors: service.model === 'doctor' ? pickDoctors(catalog, clinic.id, variantId) : [],
@@ -165,35 +168,19 @@ function pickOwnStation(clinic, stations, graph) {
 
 function scoreRows(rows) {
   if (!rows.length) return
-  const costs = rows.map((r) => r.clinicService.avgCaseCost).filter((c) => c != null)
-  const minCost = costs.length ? Math.min(...costs) : 0
-  const maxCost = costs.length ? Math.max(...costs) : 0
-  const spread = maxCost - minCost
 
   for (const r of rows) {
     const fTier = TIER_VALUE[r.clinic.priorityTier] ?? 0.3
     const fGeo =
       r.distanceMeters == null ? 0.5 : clamp01(1 - r.distanceMeters / GEO_HORIZON_METERS)
-    // Незаполненное поле считаем худшим значением, а не серединой.
-    //
-    // Раньше здесь стояло 0.5 — «не награждаем и не наказываем». На деле это
-    // была награда: клиника без цены получала половину балла, а самая дорогая
-    // из клиник с известной ценой — ноль. Из-за этого клиника в 6 км без
-    // единой цифры обходила клинику в 3,8 км с заполненной ценой.
-    //
-    // Пустое поле — это не «средне», это «мы не знаем, что сказать пациенту».
-    // Такая клиника не должна выигрывать у той, про которую всё известно.
+    // Незаполненное поле считаем худшим значением, а не серединой: пустое
+    // поле — это не «средне», это «нам нечего сказать пациенту», и такая
+    // клиника не должна выигрывать у той, про которую всё известно.
     const fSlot = r.slotKnown ? clamp01(1 - r.slotDays / 14) : 0
-    const fCost = !r.costKnown
-      ? 0
-      : spread > 0
-        ? clamp01(1 - (r.clinicService.avgCaseCost - minCost) / spread)
-        : 1
 
-    const raw =
-      WEIGHTS.tier * fTier + WEIGHTS.geo * fGeo + WEIGHTS.slot * fSlot + WEIGHTS.cost * fCost
+    const raw = WEIGHTS.tier * fTier + WEIGHTS.geo * fGeo + WEIGHTS.slot * fSlot
 
-    r.breakdown = { fTier, fGeo, fSlot, fCost }
+    r.breakdown = { fTier, fGeo, fSlot }
     r.score = Math.max(0, Math.round(raw * 100) - (r.isStale ? STALE_PENALTY : 0))
   }
 }
@@ -217,7 +204,7 @@ function pickDoctors(catalog, clinicId, variantId) {
 }
 
 /**
- * Ярлыки для карточек: «Ближе всего» и «Дешевле».
+ * Ярлыки для карточек: сейчас только «Ближе всего».
  *
  * Ярлыка «Рекомендуем» намеренно нет. Он вешался на первую строку выдачи,
  * то есть на лучший суммарный скор, и это вводило в заблуждение: клиника
@@ -245,15 +232,6 @@ export function deriveLabels(rows) {
     add(nearest.key, 'Ближе всего')
   }
 
-  // «Дешевле» имеет смысл, только когда есть с чем сравнивать
-  const withCost = rows.filter((r) => r.costKnown)
-  const distinct = new Set(withCost.map((r) => r.clinicService.avgCaseCost))
-  if (withCost.length > 1 && distinct.size > 1) {
-    const cheapest = withCost.reduce((a, b) =>
-      b.clinicService.avgCaseCost < a.clinicService.avgCaseCost ? b : a
-    )
-    add(cheapest.key, 'Дешевле')
-  }
 
   return labels
 }

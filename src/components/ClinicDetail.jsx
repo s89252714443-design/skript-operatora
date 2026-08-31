@@ -4,7 +4,6 @@ import Avatar from './Avatar.jsx'
 import ClinicPhotos from './ClinicPhotos.jsx'
 import ClinicQa from './ClinicQa.jsx'
 import { plural } from '../core/metro.js'
-import { formatMoney } from '../core/message.js'
 import { splitEducation } from '../core/education.js'
 import { filterQaForService } from '../core/qa.js'
 import { formatDistance } from '../core/ranking.js'
@@ -60,13 +59,7 @@ export default function ClinicDetail({
 
         {/* Цена и теги не уезжают за вкладки: их спрашивают в первую очередь */}
         <div className="flex flex-wrap items-center gap-x-5 gap-y-2 rounded-xl bg-white px-4 py-3 ring-1 ring-slate-200">
-          <Fact
-            label="Средняя стоимость мед. кейса"
-            value={option.costKnown ? formatMoney(cs.avgCaseCost) : 'не заведена'}
-            big
-            warn={!option.costKnown}
-          />
-          {cs.durationMin && <Fact label="Длительность" value={`${cs.durationMin} мин`} />}
+          {cs.durationMin && <Fact label="Длительность" value={`${cs.durationMin} мин`} big />}
           {tags.length > 0 && (
             <div className="flex flex-1 flex-wrap justify-end gap-1.5">
               {tags.map((t, i) => (

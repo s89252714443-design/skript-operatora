@@ -1,13 +1,16 @@
-// Внешний вид точки на карте. Показываем цену прямо на метке:
-// оператор считывает выдачу, не наводя мышь.
+// Внешний вид точки на карте. Раньше на метке стояла цена, но её мы больше
+// нигде не показываем. Пишем станцию метро: у сети четыре филиала подряд
+// начинаются одинаково («Первая семейная клиника на…»), и по обрезанному
+// названию их не различить, а станции у всех разные. Полное название
+// и адрес видны в подсказке при наведении.
 
 // data-clinic нужен для делегирования клика: у HTML-меток разных карт
 // свои события, а обработчик на контейнере работает везде одинаково.
+const MAX_LABEL = 24
+
 export function pillHtml(row, index, active) {
-  // цена может быть ещё не заведена — тогда честно говорим об этом,
-  // а не показываем «0 ₽»
-  const cost = row.clinicService.avgCaseCost
-  const price = cost != null ? new Intl.NumberFormat('ru-RU').format(cost) + ' ₽' : 'нет данных'
+  const name = row.ownStation?.name ?? row.clinic.name
+  const label = name.length > MAX_LABEL ? name.slice(0, MAX_LABEL - 1).trimEnd() + '…' : name
   const top = index === 0
   const bg = active ? '#1d4ed8' : top ? '#0f172a' : '#ffffff'
   const fg = active || top ? '#ffffff' : '#0f172a'
@@ -20,7 +23,7 @@ export function pillHtml(row, index, active) {
       background:${bg}; color:${fg}; border:2px solid ${border};
       font: 600 12px/1.2 Inter, 'Segoe UI', system-ui, sans-serif;
       box-shadow: 0 2px 6px rgba(15,23,42,.25); cursor:pointer;">
-      ${top ? '★ ' : ''}${price}
+      ${top ? '★ ' : ''}${escapeHtml(label)}
     </div>`
 }
 

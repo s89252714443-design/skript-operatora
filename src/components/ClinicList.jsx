@@ -1,11 +1,9 @@
 import YandexRating from './YandexRating.jsx'
-import { formatMoney } from '../core/message.js'
 import { formatDistance } from '../core/ranking.js'
 import { deriveTags, TAG_STYLE } from '../core/tags.js'
 
 const LABEL_STYLE = {
   'Ближе всего': 'bg-emerald-600 text-white',
-  Дешевле: 'bg-amber-500 text-white',
 }
 
 export default function ClinicList({ rows, labels, ratings, selectedKey, onSelect, onOpen, todayIso }) {
@@ -81,23 +79,11 @@ function ClinicCard({ row, labels, rating, selected, onSelect, onOpen, todayIso 
             </div>
           )}
         </div>
-        <div className="shrink-0 text-right">
-          {row.costKnown ? (
-            <div
-              title="Средняя стоимость медицинского кейса"
-              className="text-lg font-bold text-slate-900"
-            >
-              {formatMoney(cs.avgCaseCost)}
-            </div>
-          ) : (
-            <div className="text-sm font-semibold text-amber-600">стоимость не заведена</div>
-          )}
-          {rating && (
-            <div className="mt-0.5 text-sm">
-              <YandexRating rating={rating} compact />
-            </div>
-          )}
-        </div>
+        {rating && (
+          <div className="shrink-0 text-right text-sm">
+            <YandexRating rating={rating} compact />
+          </div>
+        )}
       </div>
 
       <div className="mt-2.5 flex flex-wrap gap-1.5">

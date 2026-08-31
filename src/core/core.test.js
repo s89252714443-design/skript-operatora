@@ -175,34 +175,16 @@ test('ярлыки: «Рекомендуем» больше не выдаётс�
   assert.ok(!all.includes('Рекомендуем'))
 })
 
-test('ярлыки: одна клиника может нести и «Ближе всего», и «Дешевле»', () => {
+// Ярлык «Дешевле» убран вместе с ценами: их больше не видно нигде,
+// а отмечать «дешевле» без числа — обещание без основания.
+test('ярлыки: «Дешевле» больше не выдаётся', () => {
   const rows = [
-    { key: 'a', distanceMeters: 1000, costKnown: true, clinicService: { avgCaseCost: 5000 } },
-    { key: 'b', distanceMeters: 5000, costKnown: true, clinicService: { avgCaseCost: 9000 } },
+    { key: 'a', distanceMeters: 1000, clinicService: { avgCaseCost: 5000 } },
+    { key: 'b', distanceMeters: 5000, clinicService: { avgCaseCost: 9000 } },
   ]
   const labels = deriveLabels(rows)
-  assert.deepEqual(labels.a, ['Ближе всего', 'Дешевле'])
-  assert.equal(labels.b, undefined)
-})
-
-test('ярлыки: «Дешевле» не появляется, когда сравнивать не с чем', () => {
-  const noPrices = deriveLabels([
-    { key: 'a', distanceMeters: 100, costKnown: false, clinicService: {} },
-    { key: 'b', distanceMeters: 200, costKnown: false, clinicService: {} },
-  ])
-  assert.ok(!Object.values(noPrices).flat().includes('Дешевле'))
-
-  const samePrice = deriveLabels([
-    { key: 'a', distanceMeters: 100, costKnown: true, clinicService: { avgCaseCost: 5000 } },
-    { key: 'b', distanceMeters: 200, costKnown: true, clinicService: { avgCaseCost: 5000 } },
-  ])
-  assert.ok(!Object.values(samePrice).flat().includes('Дешевле'))
-
-  const differs = deriveLabels([
-    { key: 'a', distanceMeters: 100, costKnown: true, clinicService: { avgCaseCost: 9000 } },
-    { key: 'b', distanceMeters: 200, costKnown: true, clinicService: { avgCaseCost: 5000 } },
-  ])
-  assert.deepEqual(differs.b, ['Дешевле'])
+  assert.deepEqual(labels.a, ['Ближе всего'])
+  assert.ok(!Object.values(labels).flat().includes('Дешевле'))
 })
 
 test('подбор: приоритет A выигрывает при прочих равных', () => {
@@ -897,42 +879,38 @@ test('правки: в overrides.json только известные разде
   }
 })
 
-test('подбор: клиника без цены не обходит клинику с заполненной ценой', () => {
-  // Раньше пустая цена давала 0.5 балла — «нейтрально», — и клиника без
-  // данных выигрывала у самой дорогой из заполненных. Пустое поле не должно
-  // быть преимуществом.
+test('подбор: стоимость на порядок выдачи не влияет', () => {
+  // Цену мы нигде не показываем, поэтому и сортировать по ней нельзя:
+  // порядок, объяснимый только невидимым числом, оператору не объяснить.
   const origin = originAt('msk', 'Автозаводская')
   const base = findOptions({
     catalog, origin, graph, cityId: 'msk', variantId: 'colono-diag', filters: {}, todayIso: today,
   }).rows[0]
 
-  // Два одинаковых двойника, отличается только заполненность цены —
-  // на демо-данные не опираемся, там стоимость кейса не заведена вовсе
+  // два одинаковых двойника, отличаются только стоимостью кейса
   const twin = {
     ...catalog,
     clinics: [
       ...catalog.clinics,
-      { ...base.clinic, id: 'cl-с-ценой', name: 'Клиника с ценой' },
-      { ...base.clinic, id: 'cl-без-цены', name: 'Клиника без цены' },
+      { ...base.clinic, id: 'cl-дорогая', name: 'Дорогая' },
+      { ...base.clinic, id: 'cl-дешёвая', name: 'Дешёвая' },
     ],
     clinicServices: [
       ...catalog.clinicServices,
-      { ...base.clinicService, id: 'cs-с-ценой', clinicId: 'cl-с-ценой', avgCaseCost: 9000 },
-      { ...base.clinicService, id: 'cs-без-цены', clinicId: 'cl-без-цены', avgCaseCost: null },
+      { ...base.clinicService, id: 'cs-дорогая', clinicId: 'cl-дорогая', avgCaseCost: 90000 },
+      { ...base.clinicService, id: 'cs-дешёвая', clinicId: 'cl-дешёвая', avgCaseCost: 900 },
     ],
   }
 
   const rows = findOptions({
     catalog: twin, origin, graph, cityId: 'msk', variantId: 'colono-diag', filters: {}, todayIso: today,
   }).rows
-  const withCost = rows.find((r) => r.key === 'cs-с-ценой')
-  const without = rows.find((r) => r.key === 'cs-без-цены')
+  const dear = rows.find((r) => r.key === 'cs-дорогая')
+  const cheap = rows.find((r) => r.key === 'cs-дешёвая')
 
-  assert.ok(withCost && without, 'клиники-двойники не попали в выдачу')
-  assert.ok(
-    withCost.score > without.score,
-    `клиника без цены (${without.score}) не должна обходить такую же с ценой (${withCost.score})`
-  )
+  assert.ok(dear && cheap, 'клиники-двойники не попали в выдачу')
+  assert.equal(dear.score, cheap.score, 'стоимость не должна менять баллы')
+  assert.ok(!('fCost' in dear.breakdown), 'в разбор баллов вернулась стоимость')
 })
 
 test('подбор: при прочих равных выше та, что ближе', () => {
@@ -991,5 +969,19 @@ test('данные: собранные рейтинги ссылаются на 
       assert.equal(typeof item.award.name, 'string')
       assert.ok(item.award.year === null || item.award.year >= 2020)
     }
+  }
+})
+
+test('данные: цену нигде не показываем — ни в списке, ни на карте, ни в карточке', () => {
+  const surfaces = [
+    'src/components/ClinicList.jsx',
+    'src/components/ClinicDetail.jsx',
+    'src/components/markerPill.js',
+    'src/components/MapView.jsx',
+  ]
+  for (const file of surfaces) {
+    const code = readFileSync(resolve(ROOT, file), 'utf8')
+    assert.ok(!/avgCaseCost/.test(code), `в ${file} вернулась стоимость`)
+    assert.ok(!/formatMoney/.test(code), `в ${file} вернулся вывод суммы`)
   }
 })
