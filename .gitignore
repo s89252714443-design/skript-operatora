@@ -1,0 +1,30 @@
+# Зависимости
+node_modules/
+
+# Сборка и кэш Vite
+dist/
+.vite/
+*.tsbuildinfo
+
+# Локальные настройки окружения. .env.example коммитим — он без секретов.
+.env
+.env.local
+.env.*.local
+
+# Служебное от ОС и редакторов
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Сырая выгрузка метро из OpenStreetMap: промежуточный файл на 5 МБ,
+# из него собирается data/metro.json. Пересобирается командой npm run metro.
+data/metro-osm-raw.json
+
+# Резервная копия демо-справочника метро, нужна была разово
+data/metro.demo-backup.json
+
+# Логи и временные файлы
+*.log
+npm-debug.log*

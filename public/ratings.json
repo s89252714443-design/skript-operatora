@@ -1,0 +1,25 @@
+{
+  "_comment": "Рейтинги с Яндекс.Карт. Собирает npm run ratings. Файл читается приложением на лету, пересборка не нужна.",
+  "updatedAt": "2026-08-31T09:41:16.666Z",
+  "items": {
+    "cl-ооо-скандинавский-центр-здоровья": {
+      "rating": 4.9,
+      "reviews": 1564,
+      "award": null,
+      "url": "https://yandex.ru/maps/-/CTH0bVM7",
+      "resolvedUrl": "https://yandex.ru/maps/org/skandinavskiy_tsentr_zdorovya/1242681036/",
+      "checkedAt": "2026-08-31"
+    },
+    "cl-ооо-первая-семейная-клиника-петербурга": {
+      "rating": 4.6,
+      "reviews": 534,
+      "award": {
+        "name": "Хорошее место",
+        "year": 2026
+      },
+      "url": "https://yandex.ru/maps/-/CTTUYK7c",
+      "resolvedUrl": "https://yandex.ru/maps/org/pervaya_semeynaya_klinika_peterburga/1257349192/",
+      "checkedAt": "2026-08-31"
+    }
+  }
+}

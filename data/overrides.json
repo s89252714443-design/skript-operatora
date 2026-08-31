@@ -1,0 +1,59 @@
+{
+  "_comment": "Ручные правки сотрудников поверх импортированных данных. Импорт этот файл НЕ трогает. Редактируется через админку: откройте приложение с #admin в адресе.",
+  "clinics": {},
+  "clinicServices": {},
+  "clinicMetro": {},
+  "doctors": {},
+  "sellingPoints": {},
+  "content": {},
+  "clinicPhotos": {
+    "cl-ооо-скандинавский-центр-здоровья": [
+      {
+        "url": "/clinics/skandinavsky/entrance.webp",
+        "caption": "Вход в клинику"
+      },
+      {
+        "url": "/clinics/skandinavsky/reception.webp",
+        "caption": "Ресепшен"
+      },
+      {
+        "url": "/clinics/skandinavsky/hall.webp",
+        "caption": "Холл, указатели к кабинетам"
+      },
+      {
+        "url": "/clinics/skandinavsky/inpatient.webp",
+        "caption": "Отделение стационара"
+      },
+      {
+        "url": "/clinics/skandinavsky/pool.webp",
+        "caption": "Бассейн"
+      },
+      {
+        "url": "/clinics/skandinavsky/stairs.webp",
+        "caption": "Лестница между этажами"
+      }
+    ],
+    "cl-ооо-первая-семейная-клиника-петербурга": [
+      {
+        "url": "/clinics/pervaya-semeynaya-peterburga/entrance.webp",
+        "caption": "Вход с Каменноостровского проспекта"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-peterburga/reception.webp",
+        "caption": "Ресепшен и зона ожидания"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-peterburga/hall.webp",
+        "caption": "Холл между этажами"
+      },
+      {
+        "url": "/clinics/pervaya-semeynaya-peterburga/waiting.webp",
+        "caption": "Зона ожидания"
+      }
+    ]
+  },
+  "clinicYandex": {
+    "cl-ооо-скандинавский-центр-здоровья": "https://yandex.ru/maps/-/CTH0bVM7",
+    "cl-ооо-первая-семейная-клиника-петербурга": "https://yandex.ru/maps/-/CTTUYK7c"
+  }
+}

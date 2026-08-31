@@ -1,0 +1,4754 @@
+{
+  "_comment": "Импортировано из СКРИПТ_ОПЕРАТОРЫ_ГАСТРО_КОЛОНО_МСК_СПБ (1).xlsx + Копия Копия Анкета клиники_эндоскопия (1).xlsx + Анкета клиники_эндоскопия.xlsx — 2026-08-28T20:01:19.992Z",
+  "clinics": [
+    {
+      "id": "cl-ооо-скандинавский-центр-здоровья",
+      "cityId": "msk",
+      "name": "Скандинавский центр здоровья",
+      "legalName": "ООО «Скандинавский центр здоровья»",
+      "address": "Москва, ул. 2 ая Кабельная дом 2 , строение 37",
+      "lat": 55.7450889,
+      "lng": 37.7157854,
+      "phone": null,
+      "workHours": null,
+      "priorityTier": "A",
+      "isAvoided": false,
+      "isActive": true,
+      "pausedReason": null,
+      "pausedUntil": null,
+      "notesInternal": "работают высокпрофессиональные врачи",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "cityId": "spb",
+      "name": "Клиника Будь здоров",
+      "legalName": "ООО «Клиника Будь здоров» (г. Санкт-Петербург)",
+      "address": "г. Санкт-Петербург, Лиговский пр. д. 274",
+      "lat": 59.8924452,
+      "lng": 30.3225623,
+      "phone": null,
+      "workHours": null,
+      "priorityTier": "A",
+      "isAvoided": false,
+      "isActive": true,
+      "pausedReason": null,
+      "pausedUntil": null,
+      "notesInternal": "",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "cityId": "spb",
+      "name": "Первая семейная клиника на Коломяжском",
+      "legalName": "ООО \"Первая семейная клиника на Коломяжском\"",
+      "address": "пр.Коломяжский д.36",
+      "lat": 60.0146458,
+      "lng": 30.2927486,
+      "phone": null,
+      "workHours": null,
+      "priorityTier": "A",
+      "isAvoided": false,
+      "isActive": true,
+      "pausedReason": null,
+      "pausedUntil": null,
+      "notesInternal": "",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "cityId": "spb",
+      "name": "Первая семейная клиника на Гражданском",
+      "legalName": "ООО «Первая семейная клиника на Гражданском»",
+      "address": "пр.Гражданский д.36",
+      "lat": 60.0108567,
+      "lng": 30.3940065,
+      "phone": null,
+      "workHours": null,
+      "priorityTier": "A",
+      "isAvoided": false,
+      "isActive": true,
+      "pausedReason": null,
+      "pausedUntil": null,
+      "notesInternal": "",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-петербурга",
+      "cityId": "spb",
+      "name": "Первая семейная клиника Петербурга",
+      "legalName": "ООО \"Первая семейная клиника Петербурга\"",
+      "address": "пр.Каменноостровский д.16",
+      "lat": 59.959381,
+      "lng": 30.31738,
+      "phone": null,
+      "workHours": null,
+      "priorityTier": "A",
+      "isAvoided": false,
+      "isActive": true,
+      "pausedReason": null,
+      "pausedUntil": null,
+      "notesInternal": "",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-международной",
+      "cityId": "spb",
+      "name": "Первая семейная клиника на Международной",
+      "legalName": "ООО \"Первая семейная клиника на Международной\"",
+      "address": "ул.Белы Куна д.1 к.2",
+      "lat": 59.8693253,
+      "lng": 30.3768145,
+      "phone": null,
+      "workHours": null,
+      "priorityTier": "A",
+      "isAvoided": false,
+      "isActive": true,
+      "pausedReason": null,
+      "pausedUntil": null,
+      "notesInternal": "",
+      "updatedAt": "2026-08-28"
+    },
+    {
+      "id": "cl-первая-семейная-клиника-на-ленинском",
+      "cityId": "spb",
+      "name": "Первая семейная клиника на Ленинском",
+      "legalName": "Первая семейная клиника на Ленинском",
+      "address": "пр.Ленинский д.84 к.1",
+      "lat": 59.8578395,
+      "lng": 30.2001165,
+      "phone": null,
+      "workHours": null,
+      "priorityTier": "A",
+      "isAvoided": false,
+      "isActive": true,
+      "pausedReason": null,
+      "pausedUntil": null,
+      "notesInternal": "",
+      "updatedAt": "2026-08-28"
+    }
+  ],
+  "clinicMetro": [
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "stationId": "msk-11-авиамоторная",
+      "walkMinutes": null,
+      "approximate": false
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "stationId": "spb-2-московские-ворота",
+      "walkMinutes": null,
+      "approximate": false
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "stationId": "spb-2-пионерская",
+      "walkMinutes": null,
+      "approximate": false
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "stationId": "spb-1-академическая",
+      "walkMinutes": null,
+      "approximate": false
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "stationId": "spb-2-горьковская",
+      "walkMinutes": null,
+      "approximate": false
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "stationId": "spb-5-международная",
+      "walkMinutes": null,
+      "approximate": false
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "stationId": "spb-6-юго-западная",
+      "walkMinutes": null,
+      "approximate": false
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "stationId": "spb-1-ленинский-проспект",
+      "walkMinutes": null,
+      "approximate": false
+    }
+  ],
+  "clinicServices": [
+    {
+      "id": "cl-ооо-скандинавский-центр-здоровья__gastro-diag",
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "serviceVariantId": "gastro-diag",
+      "price": null,
+      "avgCaseCost": 7755,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax, экспертный класс",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-скандинавский-центр-здоровья__gastro-sed",
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "serviceVariantId": "gastro-sed",
+      "price": null,
+      "avgCaseCost": 7755,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax, экспертный класс",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-скандинавский-центр-здоровья__colono-diag",
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "serviceVariantId": "colono-diag",
+      "price": null,
+      "avgCaseCost": 13256,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax, экспертный класс",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-скандинавский-центр-здоровья__colono-sed",
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "serviceVariantId": "colono-sed",
+      "price": null,
+      "avgCaseCost": 13256,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax, экспертный класс",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-клиника-будь-здоров-г-санкт-петербург__gastro-diag",
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "serviceVariantId": "gastro-diag",
+      "price": null,
+      "avgCaseCost": 5464,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": false,
+      "hasAnesthesiologist": false,
+      "equipmentModel": "Fujinon, Pentax",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": null,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-клиника-будь-здоров-г-санкт-петербург__colono-diag",
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "serviceVariantId": "colono-diag",
+      "price": null,
+      "avgCaseCost": null,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": false,
+      "hasAnesthesiologist": false,
+      "equipmentModel": "Fujinon, Pentax",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": null,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-коломяжском__gastro-diag",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "serviceVariantId": "gastro-diag",
+      "price": null,
+      "avgCaseCost": 3680,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-коломяжском__gastro-sed",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "serviceVariantId": "gastro-sed",
+      "price": null,
+      "avgCaseCost": 3680,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-коломяжском__colono-diag",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "serviceVariantId": "colono-diag",
+      "price": null,
+      "avgCaseCost": 8800,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-коломяжском__colono-sed",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "serviceVariantId": "colono-sed",
+      "price": null,
+      "avgCaseCost": 8800,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-гражданском__gastro-diag",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "serviceVariantId": "gastro-diag",
+      "price": null,
+      "avgCaseCost": 4080,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-гражданском__gastro-sed",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "serviceVariantId": "gastro-sed",
+      "price": null,
+      "avgCaseCost": 4080,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-гражданском__colono-diag",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "serviceVariantId": "colono-diag",
+      "price": null,
+      "avgCaseCost": null,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-гражданском__colono-sed",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "serviceVariantId": "colono-sed",
+      "price": null,
+      "avgCaseCost": null,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-петербурга__gastro-diag",
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "serviceVariantId": "gastro-diag",
+      "price": null,
+      "avgCaseCost": 4263,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-петербурга__gastro-sed",
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "serviceVariantId": "gastro-sed",
+      "price": null,
+      "avgCaseCost": 4263,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-петербурга__colono-diag",
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "serviceVariantId": "colono-diag",
+      "price": null,
+      "avgCaseCost": 8110,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-петербурга__colono-sed",
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "serviceVariantId": "colono-sed",
+      "price": null,
+      "avgCaseCost": 8110,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-международной__gastro-diag",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "serviceVariantId": "gastro-diag",
+      "price": null,
+      "avgCaseCost": 4453,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-международной__gastro-sed",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "serviceVariantId": "gastro-sed",
+      "price": null,
+      "avgCaseCost": 4453,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-международной__colono-diag",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "serviceVariantId": "colono-diag",
+      "price": null,
+      "avgCaseCost": 10223,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-ооо-первая-семейная-клиника-на-международной__colono-sed",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "serviceVariantId": "colono-sed",
+      "price": null,
+      "avgCaseCost": 10223,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-первая-семейная-клиника-на-ленинском__gastro-diag",
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "serviceVariantId": "gastro-diag",
+      "price": null,
+      "avgCaseCost": null,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-первая-семейная-клиника-на-ленинском__gastro-sed",
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "serviceVariantId": "gastro-sed",
+      "price": null,
+      "avgCaseCost": null,
+      "priceSedation": null,
+      "durationMin": 15,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-первая-семейная-клиника-на-ленинском__colono-diag",
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "serviceVariantId": "colono-diag",
+      "price": null,
+      "avgCaseCost": null,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    },
+    {
+      "id": "cl-первая-семейная-клиника-на-ленинском__colono-sed",
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "serviceVariantId": "colono-sed",
+      "price": null,
+      "avgCaseCost": null,
+      "priceSedation": null,
+      "durationMin": 30,
+      "hasSedation": true,
+      "hasAnesthesiologist": true,
+      "equipmentModel": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "tesla": null,
+      "mriType": null,
+      "maxWeightKg": 150,
+      "minAge": null,
+      "reportHours": null,
+      "nearestSlotDate": null,
+      "slotUpdatedAt": null,
+      "priceUpdatedAt": null,
+      "isActive": true
+    }
+  ],
+  "doctors": [
+    {
+      "id": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "fullName": "Хрущева Галина Алексеевна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 37,
+      "category": "высшая",
+      "degree": null,
+      "proceduresCount": null,
+      "education": "1999 г. \"Лечебное дело\" Московский медицинский стоматологический институт 2001 г. \"Эндоскопия\" Учебро-научный центр МЦ Управления делами Президента РФ 2020 г. ГБУЗ МКНЦ ИМЕНИ А.С. ЛОГИНОВА ДЗМ 2025 г. ООО Институт медицинского образования \"Доктрина\"",
+      "patientText": "Врач-эндоскопист с многолетним стажем и высшей квалификационной категорией. Выполняет все виды диагностических и лечебных эндоскопических исследований, включая гастроскопию и колоноскопию, с применением современного оборудования. Благодаря огромному опыту и бережному подходу, процедуры проходят максимально комфортно и безболезненно для пациентов.",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "fullName": "Абдурагимова Айшат Рамазановна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 1,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2023 г. \"Лечебное дело\" ФГБО УВО \"Дагестанский государственный медицинский университет\" МЗ РФ 2025 г. \"Эндоскопия\" ГБУЗ города Москвы \"НИИСП им. Н.В. Склифосовского ДЗ города Москвы",
+      "patientText": "Врач-эндоскопист с глубокими знаниями в области диагностики заболеваний ЖКТ. Специализируется на малоинвазивных методиках, обеспечивающих комфортное прохождение процедуры и точный результат. Молодой врач с очень трептным отношением к пациентам.",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "fullName": "Баткаев Наиль Фаатович",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 3,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2017 г. \"Лечебное дело\" ФГБОУ ВО \"Российский национальный исследовательский медицинский университет имени Н.И. Пирогова\" МЗ РФ 2019 г. \"Хирургия\" ФГБОУ ВО \"Российский национальный исследовательский медицинский университет имени Н.И. Пирогова\" МЗ РФ 2019 г. \"Эндоскопия\" ФГАОУ ВО РНИМУ им. Н.И. Пирогова МЗ РФ",
+      "patientText": "Молодой, перспективный врач-эндоскопист, прошедший подготовку по современным стандартам диагностики. Владеет новейшими методиками эндоскопических исследований, включая осмотр на аппаратах экспертного класса с высокой четкостью изображения. Подходит к каждому пациенту с вниманием и заботой, обеспечивая комфортное прохождение процедуры даже при повышенной тревожности.",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "fullName": "Кирейчук Дмитрий Дмитриевич",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 36,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "1996 г. \"Лечебное дело\" Военно-медицинская ордена Ленина Краснознаменную академию им. Кирова 2003 г. \"Хирургия\" Военно-медицинская академия им. СМ.Кирова 2004 г. \"Эндоскопия\" Российская медицинская академия последипломного образования МЗ РФ",
+      "patientText": "Врач-эндоскопист с многолетним опытом работы и глубокими знаниями в области диагностики заболеваний ЖКТ. Специализируется на малоинвазивных методиках, обеспечивающих комфортное прохождение процедуры и точный результат.",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "fullName": "Тигиев Лев Ростиславович",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 5,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2019 г. \"Педиатрия\" ФГБОУВО \"Северо-Осетинская государственная медицинская академия\" Министерства здравоохранения Российской Федерации г.Владикавказ 2021 г. \"Эндоскопия\" ГБУЗ \"НИИ скорой помощи имени Н.В. Склифосовского ДЗ г. Москвы\" Курсы повышения квалификации 2021 г. Учебно-аккредитационный центр Медицинский симуляционный центр Боткинской больницы 2023 г. ГБУ НИИОЗММ ДЗМ 2023 г. ФГБО УДПО \"РМАНПО\" МЗ РФ 2024 г. ФГБО УДПО \"РМАНПО\" МЗ РФ 2025 г. ФГБО УДПО \"РМАНПО\" МЗ РФ",
+      "patientText": "Энергичный врач-эндоскопист, применяющий в работе самые современные технологии и методы малоинвазивной диагностики. Молодой специалист, который находит подход к каждому пациенту, делая процедуру максимально быстрой и комфортной.",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-лем",
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "fullName": "Лемешко Роман Александрович",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 24,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": null,
+      "patientText": "https://spb.klinikabudzdorov.ru/vrachi/lemeshko-roman-aleksandrovich/",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-дор",
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "fullName": "Дорофеева Екатерина Родионовна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 12,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": null,
+      "patientText": "https://spb.klinikabudzdorov.ru/vrachi/dorofeeva-ekaterina-rodionovna/",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-эсх",
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "fullName": "Эсханова Айдима Султановна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 4,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": null,
+      "patientText": "https://spb.klinikabudzdorov.ru/vrachi/eskhanova-aydima-sultanovna/",
+      "forAnxious": false,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "fullName": "Печковская Елена Владимировна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 33,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "1992 г. - Белорусский государственный медицинский университет, специальность \"Педиатрия\". 1993 г. - Интернатура в \"Белорусский государственный медицинский университет\" по специальности «Педиатрия». 2009 г. - Переподготовка в \"Белорусский государственный медицинский университет\" по специальности «Эндоскопия». 2020 г. — ФГБОУ ВО ПСПбГМУ им И.П. Павлова Минздрава России по дополнительной программе \"Эндоскопия и эндовидеохирургия\" Аккредитация от 25.02.2025 по специальности \"Эндоскопия\", уникальный номер реестровой записи № 7725.032639402, ФГБОУ ДПО \"Российская медицинская академия непрерывного профессионального образования\" Минздрава РФ",
+      "patientText": "https://www.1-clinic.ru/doctors/pechkovskaya-elena-vladimirovna.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "fullName": "Жестков Игорь Владимирович",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 32,
+      "category": null,
+      "degree": "к.м.н.",
+      "proceduresCount": null,
+      "education": "1994 г. — Сибирский ордена Трудового Красного Знамени медицинский институт. Специальность «Лечебное дело». 1999 г. — ГОУ Институт повышения квалификации ФУ МБ и ЭП. Программа «Хирургия». 2000 г. — Инстутит повышения квалификации ФУ МБ и ЭП при МЗ РФ. Программа «Актуальные вопросы сосудистой хирургии». 2005 г. — Военно-медицинская академия. Программа «Эндоскопия». 2011 г. — Военно-медицинская академия. Программа «Эндоскопия». 2011 г. — ГОУ ДПО Российская мед. академия последипломного образования Росздрава. Программа «Сердечно-сосудистая хирургия». 2015 г. — ГБО УВПО «Северо-Западный государственный медицинский университет имени И.И. Мечникова». Программа «Наследственная и врожденная патология. Современные методы диагностики, лечения и профилактики». 2016 г. — ФГБОУ ВО ПСПбГМУ им. И.П. Павлова. Программа «Организация здравоохранения и общественное здоровье». 2017 г. — ФГБО УВО «Санкт-Петербургская государственная химико-фармацевтическая академия». Программа «Правила работы с наркотическими средствами и психотропными веществами». 2017 г. — ФГБОУ ВО ПСПбГМУ им И.П. Павлова. Программа «Организация экспертизы временной нетрудоспособности». 2018 г. — ФГБВО УВО «Военно-медицинская академия имени С.М. Кирова». Программа «Хирургия». 2019 г. — Военно-медицинская академия. Программа «Эндоскопическая диагностика в гастроэнтерологии». Аккредитация от 26.03.2024 по специальности \"Эндоскопия\", уникальный номер реестровой записи №7724.031793573, ФГБОУ ДПО \"Российская медицинская академия непрерывного профессионального образования\" Минздрава РФ",
+      "patientText": "https://www.1-clinic.ru/doctors/zhestkov-igor-vladimirovich.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "fullName": "Гагиев Заза Важаевич",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 15,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2010 г. - закончил ГОУ ВПО \"Северо-Осетинская государственная медицинская академия\" по специальности \"Педиатрия\". 2011 г. - прошел интернатуру по специальности \"Хирургия\" при ГОУ ВПО \"Северо-Осетинская государственная медицинская академия\". 2014 г. - повышение квалификации по направлению \"Эндоскопия\", ГБОУ ВПО \"Ставропольский государственный медицинский университет\". 2019 г. - повышение квалификации по направлению \"Эндоскопия\", АНО ВО \"Европейский Университет \"Бизнес Треугольник\". Сертификат №1178270025359 от 06.09.2019 по специальности \"Эндоскопия\", АНО ВО \"Европейский Университет \"Бизнес Треугольник\".",
+      "patientText": "https://www.1-clinic.ru/doctors/gagiev-zaza-vazhaevich.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-ко",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "fullName": "Коробов Юрий Александрович",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 46,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "В 1980 году окончил Владивостокский государственный медицинский университет, факультет лечебного дела. В 2016 году прошел профессиональную переподготовку в Тихоокеанском государственном медицинском университете, по специальности \"Эндоскопия\". Сертификат № 1178270040339 от 29.09.2020, ООО \"Международная Ассоциация Последипломного образования\" по специальности \"Эндоскопия\".",
+      "patientText": "https://www.1-clinic.ru/doctors/korobov-yuriy-alexandrovich.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "fullName": "Перевозникова Александра Олеговна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 24,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2002 - закончила ФГБОУ ВО \"Северный государственный медицинский университет\" по специальности \"Лечебное дело\", г. Архангельск 2002-2003 гг. - прошла интернатуру на базе ФГБОУ ВО \"Северный государственный медицинский университет\" Минздрава РФ по специальности \"Хирургия\", г. Архангельск 2023 г. - повышение квалификации по программе \"Эндоскопия\" на базе АНО ДПО \"ДДМ\", г. Уфа 2006 г. - профессиональная переподготовка по программе \"Эндоскопия\" на базе ГОУ ДПО \"Санкт-Петербургская медицинская академия последипломного образования\" Минздрава РФ, г. Санкт-Петербург Аккредитация по специальности «Эндоскопия», уникальный номер реестровой записи в ЕГИСЗ №7724.032147695 от 23.07.2024, ФГБОУ ДПО \"Российская медицинская академия непрерывного профессионального образования\" Минздрава РФ Аккредитация по специальности «Ультразвуковая диагностика», уникальный номер реестровой записи в ЕГИСЗ №7724.032417176 от 26.11.2024, ФГБОУ ДПО \"Российская медицинская академия непрерывного профессионального образования\" Минздрава РФ",
+      "patientText": "https://www.1-clinic.ru/doctors/perevoznikova-alexandra-olegovna.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "fullName": "Перфильев Андрей Петрович",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 10,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2016 - закончил ГБОУ ВПО \"Башкирский государственный медицинский университет\" по специальности \"Педиатрия\" 2017 - прошел интернатуру при ФГБОУ ВО \"Башкирский государственный медицинский университет\" по специальности \"Детская хирургия\" 2017 г. - профессиональная переподготовка на базе ФГБОУ ВО \"Первый Санкт-Петербургский государственный медицинский университет им. академика И.П. Павлова\" по программе \"Эндоскопия\" 2017 г. - Ⅱ научно-практическая конференция с международным участием \"Современные аспекты диагностики и лечения доброкачественных заболеваний пищевода\" 2018 г. - образовательный семинар \"Возможности современной бронхоскопии\" 2019 г. - образовательный семинар \"Качество колоноскопии\" 2020 г. - сертификат \"Стентирование в эндоскопии\" 2022 г. - повышение квалификации на базе АНО ДПО \"Центр образовательных услуг\" по программе \"Эндоскопия\" Аккредитация по специальности «Эндоскопия», уникальный номер реестровой записи в ЕГИСЗ №7722.028775000 от 27.12.2022 ФГБОУ ДПО \"Российская медицинская академия непрерывного профессионального образования\" Минздрава РФ",
+      "patientText": "https://www.1-clinic.ru/doctors/perfilev-andrey-petrovich.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "fullName": "Андрейчикова Оксана Вадимовна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 2,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2023 г. — закончила по специальности \"Лечебное дело\" ФГБОУ ВО СЗГМУ им. И. И. Мечникова Минздрава России, красный диплом 2025 г. — закончила ординатуру по специальности \"Эндоскопия\" на базе ФГАОУ ВО Первый МГМУ им. И. М. Сеченова Минздрава России (Сеченовский Университет) Аккредитация по специальности \"Эндоскопия\", уникальный номер реестровой записи в ЕГИСЗ № 7725.033033139 от 30.06.2025, ФГБОУ ВО Первый Московский государственный медицинский университет имени И.М. Сеченова Минздрава РФ Аккредитация по специальности \"Лечебное дело\", уникальный номер реестровой записи в ЕГИСЗ № 7823.030701181 от 15.07.2023, ФГБОУ ВО \"Северо-Западный государственный медицинский университет имени И.И. Мечникова\" Минздрава России",
+      "patientText": "https://www.1-clinic.ru/doctors/andreychikova-oxana-vadimovna.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "fullName": "Гаджиалиева Аниса Назимовна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 6,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2020 - закончила ФГБОУ ВО \"Ивановская государственная медицинская академия\" по специальности \"Лечебное дело\", г. Иваново 2025 - закончила ординатуру на базе ФГБОУ ВО \"Северо-Западный государственный медицинский университет им. И.И. Мечникова\" Минздрава РФ по специальности \"Эндоскопия\", г. Санкт-Петербург Аккредитация по специальности «Эндоскопия», уникальный номер реестровой записи в ЕГИСЗ №7825.033265289 от 04.08.2025, ФГБОУ ВО \"Первый Санкт-Петербургский государственный медицинский университет им. академика И.П. Павлова\" Минздрава РФ",
+      "patientText": "https://www.1-clinic.ru/doctors/gadzhialieva-anisa-nazimovna.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "fullName": "Харламова Юлия Юрьевна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 23,
+      "category": "первая",
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2002 - закончила ГОУ ВПО \"Военно-медицинская академия имени С.М. Кирова\", г. Санкт-Петербург, по специальности \"Лечебное дело\". 2003 - прошла интернатуру ГОУ ВПО \"Военно-медицинская академия имени С.М. Кирова\", г. Санкт-Петербург, по специальности \"Терапия\". 2018 - решение Территориальной аттестационной комиссии Комитета по здравоохранению Правительства Санкт-Петербурга присвоена первая квалификационная категория. 2019 - прошла программу повышения квалификации по специальности \"Эндоскопия\", АНО ДПО \"ДДМ\". Аккредитация от 29.07.2025 по специальности \"Эндоскопия\", уникальный номер реестровой записи в ЕГИСЗ №7725.033179791, ФГБОУ ДПО \"Российская медицинская академия непрерывного профессионального образования\" Минздрава РФ",
+      "patientText": "https://www.1-clinic.ru/doctors/harlamova-yuliya-yurevna.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "fullName": "Гагиев Заза Важаевич",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 15,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2010 г. - закончил ГОУ ВПО \"Северо-Осетинская государственная медицинская академия\" по специальности \"Педиатрия\". 2011 г. - прошел интернатуру по специальности \"Хирургия\" при ГОУ ВПО \"Северо-Осетинская государственная медицинская академия\". 2014 г. - повышение квалификации по направлению \"Эндоскопия\", ГБОУ ВПО \"Ставропольский государственный медицинский университет\". 2019 г. - повышение квалификации по направлению \"Эндоскопия\", АНО ВО \"Европейский Университет \"Бизнес Треугольник\". Сертификат №1178270025359 от 06.09.2019 по специальности \"Эндоскопия\", АНО ВО \"Европейский Университет \"Бизнес Треугольник\".",
+      "patientText": "https://www.1-clinic.ru/doctors/gagiev-zaza-vazhaevich.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "fullName": "Дудченко Виктория Владимировна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 26,
+      "category": "высшая",
+      "degree": null,
+      "proceduresCount": null,
+      "education": "1996 г. - \"Первый Санкт-Петербургский государственный медицинский университет имени академика И.П. Павлова\" Министерства здравоохранения Российской Федерации, специальность \"Лечебное дело\". 2000 г. - Санкт-Петербургская медицинская академия последипломного образования. Ординатура, специальность \"Эндоскопия\". 2018 г. - ФГБО УВО \"Санкт-Петербургский государственный университет гражданской авиации\" по специальности \"Эндоскопия\". Аккредитация от 27.05.2025 по специальности \"Эндоскопия\", уникальный номер реестровой записи в ЕГИСЗ №7725.033181359, ФГБОУ ДПО \"Российская медицинская академия непрерывного профессионального образования\" Минздрава РФ Аккредитация от 27.07.2022 по специальности \"Гастроэнтерология\", уникальный номер реестровой записи в ЕГИСЗ №7722.030726992, ФГБОУ ДПО \"Российская медицинская академия непрерывного профессионального образования\" Минздрава РФ",
+      "patientText": "https://www.1-clinic.ru/doctors/dudchenko-viktoriya-vladimirovna.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "fullName": "Ковтуненко Наталия Эрнестовна",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 7,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2019 г. - закончила ФГБОУ ВО \"Санкт-Петербургский государственный университет\" по специальности \"Лечебное дело\" 2021 г. - прошла клиническую ординатуру по специальности \"Эндоскопия\" при ФГБОУ ВО «Северо-Западный государственный медицинский университет имени академика И.И. Мечникова» Первичная аккредитация по специальности «Лечебное дело», протокол аккредитации №4 от 29.06.2019, ФГБОУ ВО \"Санкт-Петербургский государственный университет\" Первичная специализированная аккредитация по специальности «Эндоскопия», протокол аккредитации №60 от 28.08.2021, ФГБОУ ВО \"Первый Санкт-Петербургский государственный медицинский университет им. И.П. Павлова\"",
+      "patientText": "https://www.1-clinic.ru/doctors/kovtunenko-nataliya-ernestovna.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    },
+    {
+      "id": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "fullName": "Веселов Алексей Владимирович",
+      "specialty": "Врач-эндоскопист",
+      "photoUrl": null,
+      "experienceYears": 11,
+      "category": null,
+      "degree": null,
+      "proceduresCount": null,
+      "education": "2015 г. - закончил ФГБОУ ВО \"Тихоокеанский государственный медицинский университет\" Минздрава России по специальности \"Лечебное дело\" 2017 г. - закончил ординатуру по специальности \"Эндоскопия\" на базе ФГБОУ ВО \"Тихоокеанский государственный медицинский университет\" Минздрава России Прошел программу профессиональной переподготовки по направлению \"Эндоскопия\" на базе ФГБОУ ВО \"Северо-Западный государственный медицинский университет имени И.И. Мечникова\" Минздрава России Прошел программу профессиональной переподготовки по направлению \"Актуальные вопросы диагностической и лечебно-оперативной эндоскопии\" на базе ООО «Московская академия профессионального образования» Прошел программу профессиональной переподготовки по направлению \"Предраковые заболевания толстой кишки\" на базе ФГБОУ ВО \"Тихоокеанский государственный медицинский университет\" Минздрава России Прошел программу профессиональной переподготовки по направлению \"«Актуальные вопросы онкологии\" на базе ФГБОУ ВО \"Тихоокеанский государственный медицинский университет\" Минздрава России Аккредитация по специальности «Эндоскопия», уникальный номер реестровой записи в ЕГИСЗ №7722.026416956 от 15.06.2022, ФГБОУ ДПО \"Российская медицинская академия непрерывного профессионального образования\" Минздрава России",
+      "patientText": "https://www.1-clinic.ru/doctors/veselov-alexey-vladimirovich.html",
+      "forAnxious": true,
+      "ratingValue": null,
+      "ratingCount": null,
+      "ratingSource": null,
+      "ratingCheckedAt": null,
+      "confidence": "confirmed",
+      "isActive": true
+    }
+  ],
+  "doctorServices": [
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-лем",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-лем",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-дор",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-дор",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-эсх",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-ко",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-ко",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "serviceVariantId": "colono-sed"
+    },
+    {
+      "doctorId": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "serviceVariantId": "gastro-diag"
+    },
+    {
+      "doctorId": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "serviceVariantId": "gastro-sed"
+    },
+    {
+      "doctorId": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "serviceVariantId": "colono-diag"
+    },
+    {
+      "doctorId": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "serviceVariantId": "colono-sed"
+    }
+  ],
+  "doctorSellingPoints": [
+    {
+      "id": "sp-1",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "type": "опыт",
+      "text": "37 лет практики",
+      "confidence": "confirmed",
+      "sort": 1
+    },
+    {
+      "id": "sp-2",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "type": "квалификация",
+      "text": "врач высшей категории",
+      "confidence": "confirmed",
+      "sort": 2
+    },
+    {
+      "id": "sp-3",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "type": "опыт",
+      "text": "выполняет более 2000 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 3
+    },
+    {
+      "id": "sp-4",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "type": "опыт",
+      "text": "выполняет более 500 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 4
+    },
+    {
+      "id": "sp-5",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "type": "опыт",
+      "text": "более 200 полипэктомий в год",
+      "confidence": "confirmed",
+      "sort": 5
+    },
+    {
+      "id": "sp-6",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "type": "подход",
+      "text": "профессионально выполняет все виды исследований",
+      "confidence": "confirmed",
+      "sort": 6
+    },
+    {
+      "id": "sp-7",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-хрущева-гали",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 7
+    },
+    {
+      "id": "sp-8",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "type": "опыт",
+      "text": "1 год практики",
+      "confidence": "confirmed",
+      "sort": 8
+    },
+    {
+      "id": "sp-9",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "type": "опыт",
+      "text": "выполняет более 400 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 9
+    },
+    {
+      "id": "sp-10",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "type": "опыт",
+      "text": "выполняет более 200 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 10
+    },
+    {
+      "id": "sp-11",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "type": "подход",
+      "text": "профессионально выполняет все виды исследований",
+      "confidence": "confirmed",
+      "sort": 11
+    },
+    {
+      "id": "sp-12",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-абдурагимова",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 12
+    },
+    {
+      "id": "sp-13",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "type": "опыт",
+      "text": "3 года практики",
+      "confidence": "confirmed",
+      "sort": 13
+    },
+    {
+      "id": "sp-14",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "type": "опыт",
+      "text": "выполняет более 600 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 14
+    },
+    {
+      "id": "sp-15",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "type": "опыт",
+      "text": "выполняет более 300 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 15
+    },
+    {
+      "id": "sp-16",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "type": "опыт",
+      "text": "более 100 полипэктомий в год",
+      "confidence": "confirmed",
+      "sort": 16
+    },
+    {
+      "id": "sp-17",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "type": "подход",
+      "text": "профессионально выполняет все виды исследований",
+      "confidence": "confirmed",
+      "sort": 17
+    },
+    {
+      "id": "sp-18",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-баткаев-наил",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 18
+    },
+    {
+      "id": "sp-19",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "type": "опыт",
+      "text": "36 лет практики",
+      "confidence": "confirmed",
+      "sort": 19
+    },
+    {
+      "id": "sp-20",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "type": "опыт",
+      "text": "выполняет более 2000 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 20
+    },
+    {
+      "id": "sp-21",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "type": "опыт",
+      "text": "выполняет более 500 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 21
+    },
+    {
+      "id": "sp-22",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "type": "опыт",
+      "text": "более 200 полипэктомий в год",
+      "confidence": "confirmed",
+      "sort": 22
+    },
+    {
+      "id": "sp-23",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "type": "подход",
+      "text": "профессионально выполняет все виды исследований",
+      "confidence": "confirmed",
+      "sort": 23
+    },
+    {
+      "id": "sp-24",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-кирейчук-дми",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 24
+    },
+    {
+      "id": "sp-25",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "type": "опыт",
+      "text": "5 лет практики",
+      "confidence": "confirmed",
+      "sort": 25
+    },
+    {
+      "id": "sp-26",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "type": "опыт",
+      "text": "выполняет более 600 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 26
+    },
+    {
+      "id": "sp-27",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "type": "опыт",
+      "text": "выполняет более 300 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 27
+    },
+    {
+      "id": "sp-28",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "type": "опыт",
+      "text": "более 100 полипэктомий в год",
+      "confidence": "confirmed",
+      "sort": 28
+    },
+    {
+      "id": "sp-29",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "type": "подход",
+      "text": "профессионально выполняет все виды исследований",
+      "confidence": "confirmed",
+      "sort": 29
+    },
+    {
+      "id": "sp-30",
+      "doctorId": "dr-cl-ооо-скандинавский-центр-здоровья-тигиев-лев-р",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 30
+    },
+    {
+      "id": "sp-31",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-лем",
+      "type": "опыт",
+      "text": "24 года практики",
+      "confidence": "confirmed",
+      "sort": 31
+    },
+    {
+      "id": "sp-32",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-лем",
+      "type": "опыт",
+      "text": "выполняет 1200 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 32
+    },
+    {
+      "id": "sp-33",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-лем",
+      "type": "опыт",
+      "text": "выполняет 700 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 33
+    },
+    {
+      "id": "sp-34",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-лем",
+      "type": "опыт",
+      "text": "200 полипэктомий в год",
+      "confidence": "confirmed",
+      "sort": 34
+    },
+    {
+      "id": "sp-35",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-лем",
+      "type": "подход",
+      "text": "ФГДС, колоноскопия",
+      "confidence": "confirmed",
+      "sort": 35
+    },
+    {
+      "id": "sp-36",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-лем",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 36
+    },
+    {
+      "id": "sp-37",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-дор",
+      "type": "опыт",
+      "text": "12 лет практики",
+      "confidence": "confirmed",
+      "sort": 37
+    },
+    {
+      "id": "sp-38",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-дор",
+      "type": "опыт",
+      "text": "выполняет 1200 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 38
+    },
+    {
+      "id": "sp-39",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-дор",
+      "type": "опыт",
+      "text": "выполняет 600 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 39
+    },
+    {
+      "id": "sp-40",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-дор",
+      "type": "опыт",
+      "text": "150 полипэктомий в год",
+      "confidence": "confirmed",
+      "sort": 40
+    },
+    {
+      "id": "sp-41",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-дор",
+      "type": "подход",
+      "text": "ФГДС, колоноскопия",
+      "confidence": "confirmed",
+      "sort": 41
+    },
+    {
+      "id": "sp-42",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-дор",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 42
+    },
+    {
+      "id": "sp-43",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-эсх",
+      "type": "опыт",
+      "text": "4 года практики",
+      "confidence": "confirmed",
+      "sort": 43
+    },
+    {
+      "id": "sp-44",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-эсх",
+      "type": "опыт",
+      "text": "выполняет 1100 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 44
+    },
+    {
+      "id": "sp-45",
+      "doctorId": "dr-cl-ооо-клиника-будь-здоров-г-санкт-петербург-эсх",
+      "type": "подход",
+      "text": "ФГДС",
+      "confidence": "confirmed",
+      "sort": 45
+    },
+    {
+      "id": "sp-46",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "type": "опыт",
+      "text": "33 года практики",
+      "confidence": "confirmed",
+      "sort": 46
+    },
+    {
+      "id": "sp-47",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "type": "опыт",
+      "text": "выполняет 2000 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 47
+    },
+    {
+      "id": "sp-48",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "type": "опыт",
+      "text": "выполняет 600 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 48
+    },
+    {
+      "id": "sp-49",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "type": "подход",
+      "text": "с 15 лет",
+      "confidence": "confirmed",
+      "sort": 49
+    },
+    {
+      "id": "sp-50",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-пе",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 50
+    },
+    {
+      "id": "sp-51",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "type": "опыт",
+      "text": "32 года практики",
+      "confidence": "confirmed",
+      "sort": 51
+    },
+    {
+      "id": "sp-52",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "type": "квалификация",
+      "text": "к.м.н.",
+      "confidence": "confirmed",
+      "sort": 52
+    },
+    {
+      "id": "sp-53",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "type": "опыт",
+      "text": "выполняет 500 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 53
+    },
+    {
+      "id": "sp-54",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "type": "опыт",
+      "text": "выполняет 400 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 54
+    },
+    {
+      "id": "sp-55",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "type": "подход",
+      "text": "с 18 лет",
+      "confidence": "confirmed",
+      "sort": 55
+    },
+    {
+      "id": "sp-56",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-коломяжском-же",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 56
+    },
+    {
+      "id": "sp-57",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "type": "опыт",
+      "text": "15 лет практики",
+      "confidence": "confirmed",
+      "sort": 57
+    },
+    {
+      "id": "sp-58",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "type": "опыт",
+      "text": "выполняет 313 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 58
+    },
+    {
+      "id": "sp-59",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "type": "опыт",
+      "text": "выполняет 124 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 59
+    },
+    {
+      "id": "sp-60",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "type": "подход",
+      "text": "с 18 лет",
+      "confidence": "confirmed",
+      "sort": 60
+    },
+    {
+      "id": "sp-61",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-га",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 61
+    },
+    {
+      "id": "sp-62",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-ко",
+      "type": "опыт",
+      "text": "46 лет практики",
+      "confidence": "confirmed",
+      "sort": 62
+    },
+    {
+      "id": "sp-63",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-ко",
+      "type": "опыт",
+      "text": "выполняет 511 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 63
+    },
+    {
+      "id": "sp-64",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-ко",
+      "type": "подход",
+      "text": "с 18 лет",
+      "confidence": "confirmed",
+      "sort": 64
+    },
+    {
+      "id": "sp-65",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-ко",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 65
+    },
+    {
+      "id": "sp-66",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "опыт",
+      "text": "24 года практики",
+      "confidence": "confirmed",
+      "sort": 66
+    },
+    {
+      "id": "sp-67",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "опыт",
+      "text": "выполняет 313 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 67
+    },
+    {
+      "id": "sp-68",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "опыт",
+      "text": "выполняет 120 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 68
+    },
+    {
+      "id": "sp-69",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "подход",
+      "text": "с 18 лет",
+      "confidence": "confirmed",
+      "sort": 69
+    },
+    {
+      "id": "sp-70",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 70
+    },
+    {
+      "id": "sp-71",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "опыт",
+      "text": "10 лет практики",
+      "confidence": "confirmed",
+      "sort": 71
+    },
+    {
+      "id": "sp-72",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "опыт",
+      "text": "выполняет 50 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 72
+    },
+    {
+      "id": "sp-73",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "опыт",
+      "text": "выполняет 22 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 73
+    },
+    {
+      "id": "sp-74",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "подход",
+      "text": "с 18 лет",
+      "confidence": "confirmed",
+      "sort": 74
+    },
+    {
+      "id": "sp-75",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-гражданском-пе",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 75
+    },
+    {
+      "id": "sp-76",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "type": "опыт",
+      "text": "2 года практики",
+      "confidence": "confirmed",
+      "sort": 76
+    },
+    {
+      "id": "sp-77",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "type": "опыт",
+      "text": "выполняет 118 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 77
+    },
+    {
+      "id": "sp-78",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "type": "опыт",
+      "text": "выполняет 75 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 78
+    },
+    {
+      "id": "sp-79",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "type": "подход",
+      "text": "с 18 лет",
+      "confidence": "confirmed",
+      "sort": 79
+    },
+    {
+      "id": "sp-80",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-андрей",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 80
+    },
+    {
+      "id": "sp-81",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "type": "опыт",
+      "text": "6 лет практики",
+      "confidence": "confirmed",
+      "sort": 81
+    },
+    {
+      "id": "sp-82",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "type": "опыт",
+      "text": "выполняет 770 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 82
+    },
+    {
+      "id": "sp-83",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "type": "опыт",
+      "text": "выполняет 285 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 83
+    },
+    {
+      "id": "sp-84",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "type": "подход",
+      "text": "с 18 лет",
+      "confidence": "confirmed",
+      "sort": 84
+    },
+    {
+      "id": "sp-85",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-гаджиа",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 85
+    },
+    {
+      "id": "sp-86",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "type": "опыт",
+      "text": "23 года практики",
+      "confidence": "confirmed",
+      "sort": 86
+    },
+    {
+      "id": "sp-87",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "type": "квалификация",
+      "text": "врач первой категории",
+      "confidence": "confirmed",
+      "sort": 87
+    },
+    {
+      "id": "sp-88",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "type": "опыт",
+      "text": "выполняет 266 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 88
+    },
+    {
+      "id": "sp-89",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "type": "опыт",
+      "text": "выполняет 68 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 89
+    },
+    {
+      "id": "sp-90",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "type": "подход",
+      "text": "с 15 лет",
+      "confidence": "confirmed",
+      "sort": 90
+    },
+    {
+      "id": "sp-91",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-петербурга-харлам",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 91
+    },
+    {
+      "id": "sp-92",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "опыт",
+      "text": "15 лет практики",
+      "confidence": "confirmed",
+      "sort": 92
+    },
+    {
+      "id": "sp-93",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "опыт",
+      "text": "выполняет 313 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 93
+    },
+    {
+      "id": "sp-94",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "опыт",
+      "text": "выполняет 124 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 94
+    },
+    {
+      "id": "sp-95",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "подход",
+      "text": "с 18 лет",
+      "confidence": "confirmed",
+      "sort": 95
+    },
+    {
+      "id": "sp-96",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 96
+    },
+    {
+      "id": "sp-97",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "опыт",
+      "text": "26 лет практики",
+      "confidence": "confirmed",
+      "sort": 97
+    },
+    {
+      "id": "sp-98",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "квалификация",
+      "text": "врач высшей категории",
+      "confidence": "confirmed",
+      "sort": 98
+    },
+    {
+      "id": "sp-99",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "опыт",
+      "text": "выполняет 1100 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 99
+    },
+    {
+      "id": "sp-100",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "опыт",
+      "text": "выполняет 494 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 100
+    },
+    {
+      "id": "sp-101",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "подход",
+      "text": "с 18 лет",
+      "confidence": "confirmed",
+      "sort": 101
+    },
+    {
+      "id": "sp-102",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 102
+    },
+    {
+      "id": "sp-103",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "опыт",
+      "text": "7 лет практики",
+      "confidence": "confirmed",
+      "sort": 103
+    },
+    {
+      "id": "sp-104",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "опыт",
+      "text": "выполняет 258 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 104
+    },
+    {
+      "id": "sp-105",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "опыт",
+      "text": "выполняет 129 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 105
+    },
+    {
+      "id": "sp-106",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "подход",
+      "text": "с 10 лет",
+      "confidence": "confirmed",
+      "sort": 106
+    },
+    {
+      "id": "sp-107",
+      "doctorId": "dr-cl-ооо-первая-семейная-клиника-на-международной-",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 107
+    },
+    {
+      "id": "sp-108",
+      "doctorId": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "type": "опыт",
+      "text": "11 лет практики",
+      "confidence": "confirmed",
+      "sort": 108
+    },
+    {
+      "id": "sp-109",
+      "doctorId": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "type": "опыт",
+      "text": "выполняет 313 гастроскопий в год",
+      "confidence": "confirmed",
+      "sort": 109
+    },
+    {
+      "id": "sp-110",
+      "doctorId": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "type": "опыт",
+      "text": "выполняет 120 колоноскопий в год",
+      "confidence": "confirmed",
+      "sort": 110
+    },
+    {
+      "id": "sp-111",
+      "doctorId": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "type": "подход",
+      "text": "с 14 лет",
+      "confidence": "confirmed",
+      "sort": 111
+    },
+    {
+      "id": "sp-112",
+      "doctorId": "dr-cl-первая-семейная-клиника-на-ленинском-веселов-",
+      "type": "подход",
+      "text": "рекомендован тревожным пациентам",
+      "confidence": "confirmed",
+      "sort": 112
+    }
+  ],
+  "clinicQa": [
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Седация и наркоз",
+      "question": "Седация доступна",
+      "answer": "да",
+      "sort": 0
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Седация и наркоз",
+      "question": "Вид седации (препарат, методика)",
+      "answer": "в/в пропофол",
+      "sort": 1
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Седация и наркоз",
+      "question": "Общий наркоз с интубацией для сложных случаев",
+      "answer": "да",
+      "sort": 2
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Седация и наркоз",
+      "question": "ЭГДС и колоноскопия одномоментно за одну седацию",
+      "answer": "да",
+      "sort": 3
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Седация и наркоз",
+      "question": "Нужен сопровождающий",
+      "answer": "да",
+      "sort": 4
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Седация и наркоз",
+      "question": "Какие анализы нужны перед седацией и срок их годности",
+      "answer": "ОАК, коагулограмма, — 14 дней",
+      "sort": 5
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Седация и наркоз",
+      "question": "Нужна ЭКГ (укажите срок годности)",
+      "answer": "да, 1 мес",
+      "sort": 6
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Седация и наркоз",
+      "question": "Осмотр анестезиолога до процедуры",
+      "answer": "в день процедуры",
+      "sort": 7
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "ЭГДС без седации (местная анестезия) выполняется",
+      "answer": "да",
+      "sort": 8
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Трансназальная ЭГДС (через нос)",
+      "answer": "нет",
+      "sort": 9
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Есть тонкий / педиатрический эндоскоп для тревожных пациентов",
+      "answer": "да",
+      "sort": 10
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Экспресс-тест на H. pylori при ЭГДС",
+      "answer": "за доплату",
+      "sort": 11
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия при ЭГДС",
+      "answer": "за доплату",
+      "sort": 12
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия по протоколу OLGA / OLGIM (оценка атрофии)",
+      "answer": "да",
+      "sort": 13
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Удаление полипов желудка и пищевода",
+      "answer": "да",
+      "sort": 14
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Средняя длительность ЭГДС, минут",
+      "answer": "15-30",
+      "sort": 15
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Особенности и ограничения по ЭГДС",
+      "answer": "стандартные",
+      "sort": 16
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Колоноскопия без седации выполняется",
+      "answer": "да",
+      "sort": 17
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Седация при колоноскопии обязательна",
+      "answer": "нет",
+      "sort": 18
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Инсуффляция CO2 вместо воздуха",
+      "answer": "да",
+      "sort": 19
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Осмотр терминального отдела подвздошной кишки (илеоскопия)",
+      "answer": "да",
+      "sort": 20
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Препарат для подготовки, который рекомендуете",
+      "answer": "Фортранс/Изеклен",
+      "sort": 21
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Выдаёте препарат для подготовки в клинике",
+      "answer": "нет",
+      "sort": 22
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть памятка по подготовке для пациента (пришлёте / ссылка)",
+      "answer": "да, PDF",
+      "sort": 23
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Биопсия при колоноскопии",
+      "answer": "за доплату",
+      "sort": 24
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Полипэктомия выполняется амбулаторно",
+      "answer": "да",
+      "sort": 25
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Максимальный размер образования амбулаторно, мм",
+      "answer": "разные",
+      "sort": 26
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Удаляете полип сразу при диагностической колоноскопии",
+      "answer": "зависит от размера",
+      "sort": 27
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть дневной стационар для наблюдения после удаления",
+      "answer": "да",
+      "sort": 28
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Порядок отмены антикоагулянтов / антиагрегантов",
+      "answer": "по согласованию с лечащим врачом",
+      "sort": 29
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Средняя длительность колоноскопии, минут",
+      "answer": "30",
+      "sort": 30
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Особенности и ограничения по колоноскопии",
+      "answer": "стандартные",
+      "sort": 31
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Гистология",
+      "question": "Гистологическое исследование",
+      "answer": "за доплату",
+      "sort": 32
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Гистология",
+      "question": "Своя лаборатория или подрядчик",
+      "answer": "лаборатория на аутсорс",
+      "sort": 33
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Гистология",
+      "question": "Срок готовности заключения, рабочих дней",
+      "answer": "7",
+      "sort": 34
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «ЭГДС + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 35
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «колоноскопия + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 36
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Оборудование",
+      "question": "Производитель и класс эндоскопов",
+      "answer": "Pentax, экспертный класс",
+      "sort": 37
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Оборудование",
+      "question": "NBI / хромоскопия",
+      "answer": "да",
+      "sort": 38
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Оборудование",
+      "question": "Увеличительная эндоскопия",
+      "answer": "нет",
+      "sort": 39
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Оборудование",
+      "question": "Обработка эндоскопов в моечно-дезинфекционных машинах",
+      "answer": "да",
+      "sort": 40
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Оборудование",
+      "question": "Видеозапись исследования выдаётся пациенту",
+      "answer": "да",
+      "sort": 41
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Ограничения",
+      "question": "ЭГДС детям с какого возраста",
+      "answer": "нет",
+      "sort": 42
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Ограничения",
+      "question": "Колоноскопия детям с какого возраста",
+      "answer": "не выполняем",
+      "sort": 43
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Ограничения",
+      "question": "Ограничение по весу пациента, кг",
+      "answer": "150",
+      "sort": 44
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Ограничения",
+      "question": "Что является отказом (сопутствующая патология, беременность и т.п.)",
+      "answer": "декомпенсация ХСН, беременность",
+      "sort": 45
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Ограничения",
+      "question": "Стационар и реанимация в этом же здании",
+      "answer": "да",
+      "sort": 46
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Ограничения",
+      "question": "Порядок действий при осложнении во время процедуры",
+      "answer": "перевод в стационар свой, в этом же здании",
+      "sort": 47
+    },
+    {
+      "clinicId": "cl-ооо-скандинавский-центр-здоровья",
+      "category": "Дополнительно",
+      "question": "Что ещё важно знать координатору",
+      "answer": "работают высокпрофессиональные врачи",
+      "sort": 48
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Седация и наркоз",
+      "question": "Седация доступна",
+      "answer": "нет",
+      "sort": 0
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Седация и наркоз",
+      "question": "Вид седации (препарат, методика)",
+      "answer": "нет",
+      "sort": 1
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Седация и наркоз",
+      "question": "Общий наркоз с интубацией для сложных случаев",
+      "answer": "нет",
+      "sort": 2
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Седация и наркоз",
+      "question": "ЭГДС и колоноскопия одномоментно за одну седацию",
+      "answer": null,
+      "sort": 3
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Седация и наркоз",
+      "question": "Нужен сопровождающий",
+      "answer": "нет",
+      "sort": 4
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Седация и наркоз",
+      "question": "Какие анализы нужны перед седацией и срок их годности",
+      "answer": null,
+      "sort": 5
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Седация и наркоз",
+      "question": "Нужна ЭКГ (укажите срок годности)",
+      "answer": null,
+      "sort": 6
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Седация и наркоз",
+      "question": "Осмотр анестезиолога до процедуры",
+      "answer": null,
+      "sort": 7
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "ЭГДС без седации (местная анестезия) выполняется",
+      "answer": "да, выполняется ФГДС",
+      "sort": 8
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Трансназальная ЭГДС (через нос)",
+      "answer": "нет",
+      "sort": 9
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Есть тонкий / педиатрический эндоскоп для тревожных пациентов",
+      "answer": "нет",
+      "sort": 10
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Экспресс-тест на H. pylori при ЭГДС",
+      "answer": "за доплату",
+      "sort": 11
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия при ЭГДС",
+      "answer": "за доплату",
+      "sort": 12
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия по протоколу OLGA / OLGIM (оценка атрофии)",
+      "answer": "за доплату",
+      "sort": 13
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Удаление полипов желудка и пищевода",
+      "answer": "до 5 мм",
+      "sort": 14
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Средняя длительность ЭГДС, минут",
+      "answer": "30",
+      "sort": 15
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Особенности и ограничения по ЭГДС",
+      "answer": "Острый инфаркт миокарда или острый инсульт (первые недели после приступа). Перфорация пищевода или желудка (разрыв стенки органа). Выраженная сердечная или дыхательная недостаточность. Тяжелые нарушения свертываемости крови (например, гемофилия) при высоком риске кровотечения. Приступ бронхиальной астмы в момент исследования.",
+      "sort": 16
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Колоноскопия без седации выполняется",
+      "answer": "да",
+      "sort": 17
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Седация при колоноскопии обязательна",
+      "answer": "нет",
+      "sort": 18
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Инсуффляция CO2 вместо воздуха",
+      "answer": "нет",
+      "sort": 19
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Осмотр терминального отдела подвздошной кишки (илеоскопия)",
+      "answer": "нет",
+      "sort": 20
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Препарат для подготовки, который рекомендуете",
+      "answer": "фортранс",
+      "sort": 21
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Выдаёте препарат для подготовки в клинике",
+      "answer": "нет",
+      "sort": 22
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть памятка по подготовке для пациента (пришлёте / ссылка)",
+      "answer": "да, PDF",
+      "sort": 23
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Биопсия при колоноскопии",
+      "answer": "за доплату",
+      "sort": 24
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Полипэктомия выполняется амбулаторно",
+      "answer": "да",
+      "sort": 25
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Максимальный размер образования амбулаторно, мм",
+      "answer": "5 мм",
+      "sort": 26
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Удаляете полип сразу при диагностической колоноскопии",
+      "answer": "до 5 мм",
+      "sort": 27
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть дневной стационар для наблюдения после удаления",
+      "answer": "нет",
+      "sort": 28
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Порядок отмены антикоагулянтов / антиагрегантов",
+      "answer": "нет, удаление полипов до 5 мм",
+      "sort": 29
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Средняя длительность колоноскопии, минут",
+      "answer": "30",
+      "sort": 30
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Особенности и ограничения по колоноскопии",
+      "answer": "нет",
+      "sort": 31
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Гистология",
+      "question": "Гистологическое исследование",
+      "answer": "за доплату",
+      "sort": 32
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Гистология",
+      "question": "Своя лаборатория или подрядчик",
+      "answer": "подрядчик",
+      "sort": 33
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Гистология",
+      "question": "Срок готовности заключения, рабочих дней",
+      "answer": "7 - 10 дней",
+      "sort": 34
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «ЭГДС + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 35
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «колоноскопия + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 36
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Оборудование",
+      "question": "Производитель и класс эндоскопов",
+      "answer": "Fujinon, Pentax",
+      "sort": 37
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Оборудование",
+      "question": "NBI / хромоскопия",
+      "answer": "нет",
+      "sort": 38
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Оборудование",
+      "question": "Увеличительная эндоскопия",
+      "answer": "нет",
+      "sort": 39
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Оборудование",
+      "question": "Обработка эндоскопов в моечно-дезинфекционных машинах",
+      "answer": "да",
+      "sort": 40
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Оборудование",
+      "question": "Видеозапись исследования выдаётся пациенту",
+      "answer": "нет",
+      "sort": 41
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Ограничения",
+      "question": "ЭГДС детям с какого возраста",
+      "answer": "нет",
+      "sort": 42
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Ограничения",
+      "question": "Колоноскопия детям с какого возраста",
+      "answer": "нет",
+      "sort": 43
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Ограничения",
+      "question": "Ограничение по весу пациента, кг",
+      "answer": "нет",
+      "sort": 44
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Ограничения",
+      "question": "Что является отказом (сопутствующая патология, беременность и т.п.)",
+      "answer": "нет",
+      "sort": 45
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Ограничения",
+      "question": "Стационар и реанимация в этом же здании",
+      "answer": "нет",
+      "sort": 46
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Ограничения",
+      "question": "Порядок действий при осложнении во время процедуры",
+      "answer": "СОП",
+      "sort": 47
+    },
+    {
+      "clinicId": "cl-ооо-клиника-будь-здоров-г-санкт-петербург",
+      "category": "Дополнительно",
+      "question": "Что ещё важно знать координатору",
+      "answer": null,
+      "sort": 48
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Седация и наркоз",
+      "question": "Седация доступна",
+      "answer": "да",
+      "sort": 0
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Седация и наркоз",
+      "question": "Вид седации (препарат, методика)",
+      "answer": "в/в пропофол",
+      "sort": 1
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Седация и наркоз",
+      "question": "Общий наркоз с интубацией для сложных случаев",
+      "answer": "нет",
+      "sort": 2
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Седация и наркоз",
+      "question": "ЭГДС и колоноскопия одномоментно за одну седацию",
+      "answer": "да",
+      "sort": 3
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Седация и наркоз",
+      "question": "Нужен сопровождающий",
+      "answer": "не обязательно",
+      "sort": 4
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Седация и наркоз",
+      "question": "Какие анализы нужны перед седацией и срок их годности",
+      "answer": "ОАК, ВИЧ, сифилис, гепатиты — 14 дней",
+      "sort": 5
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Седация и наркоз",
+      "question": "Нужна ЭКГ (укажите срок годности)",
+      "answer": "да — 14 дней",
+      "sort": 6
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Седация и наркоз",
+      "question": "Осмотр анестезиолога до процедуры",
+      "answer": "в день процедуры",
+      "sort": 7
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "ЭГДС без седации (местная анестезия) выполняется",
+      "answer": "да",
+      "sort": 8
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Трансназальная ЭГДС (через нос)",
+      "answer": "нет",
+      "sort": 9
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Есть тонкий / педиатрический эндоскоп для тревожных пациентов",
+      "answer": "да",
+      "sort": 10
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Экспресс-тест на H. pylori при ЭГДС",
+      "answer": "за доплату",
+      "sort": 11
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия при ЭГДС",
+      "answer": "за доплату",
+      "sort": 12
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия по протоколу OLGA / OLGIM (оценка атрофии)",
+      "answer": "да",
+      "sort": 13
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Удаление полипов желудка и пищевода",
+      "answer": "нет",
+      "sort": 14
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Средняя длительность ЭГДС, минут",
+      "answer": "15",
+      "sort": 15
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Особенности и ограничения по ЭГДС",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 16
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Колоноскопия без седации выполняется",
+      "answer": "да",
+      "sort": 17
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Седация при колоноскопии обязательна",
+      "answer": "нет",
+      "sort": 18
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Инсуффляция CO2 вместо воздуха",
+      "answer": "да",
+      "sort": 19
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Осмотр терминального отдела подвздошной кишки (илеоскопия)",
+      "answer": "да",
+      "sort": 20
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Препарат для подготовки, который рекомендуете",
+      "answer": "Мовипреп",
+      "sort": 21
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Выдаёте препарат для подготовки в клинике",
+      "answer": "нет",
+      "sort": 22
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть памятка по подготовке для пациента (пришлёте / ссылка)",
+      "answer": "да, PDF",
+      "sort": 23
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Биопсия при колоноскопии",
+      "answer": "за доплату",
+      "sort": 24
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Полипэктомия выполняется амбулаторно",
+      "answer": "да",
+      "sort": 25
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Максимальный размер образования амбулаторно, мм",
+      "answer": "до 15 мм",
+      "sort": 26
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Удаляете полип сразу при диагностической колоноскопии",
+      "answer": "зависит от размера",
+      "sort": 27
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть дневной стационар для наблюдения после удаления",
+      "answer": "да",
+      "sort": 28
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Порядок отмены антикоагулянтов / антиагрегантов",
+      "answer": "отмена за 5 дней по согласованию",
+      "sort": 29
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Средняя длительность колоноскопии, минут",
+      "answer": "30",
+      "sort": 30
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Особенности и ограничения по колоноскопии",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 31
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Гистология",
+      "question": "Гистологическое исследование",
+      "answer": "за доплату",
+      "sort": 32
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Гистология",
+      "question": "Своя лаборатория или подрядчик",
+      "answer": "подрядчик",
+      "sort": 33
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Гистология",
+      "question": "Срок готовности заключения, рабочих дней",
+      "answer": "7",
+      "sort": 34
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «ЭГДС + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 35
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «колоноскопия + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 36
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Оборудование",
+      "question": "Производитель и класс эндоскопов",
+      "answer": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "sort": 37
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Оборудование",
+      "question": "NBI / хромоскопия",
+      "answer": "да",
+      "sort": 38
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Оборудование",
+      "question": "Увеличительная эндоскопия",
+      "answer": "да",
+      "sort": 39
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Оборудование",
+      "question": "Обработка эндоскопов в моечно-дезинфекционных машинах",
+      "answer": "да",
+      "sort": 40
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Оборудование",
+      "question": "Видеозапись исследования выдаётся пациенту",
+      "answer": "да",
+      "sort": 41
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Ограничения",
+      "question": "ЭГДС детям с какого возраста",
+      "answer": "с 14 лет",
+      "sort": 42
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Ограничения",
+      "question": "Колоноскопия детям с какого возраста",
+      "answer": "не выполняем",
+      "sort": 43
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Ограничения",
+      "question": "Ограничение по весу пациента, кг",
+      "answer": "150",
+      "sort": 44
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Ограничения",
+      "question": "Что является отказом (сопутствующая патология, беременность и т.п.)",
+      "answer": "декомпенсация ХСН, беременность, маломобильная группа населения",
+      "sort": 45
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Ограничения",
+      "question": "Стационар и реанимация в этом же здании",
+      "answer": "нет",
+      "sort": 46
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Ограничения",
+      "question": "Порядок действий при осложнении во время процедуры",
+      "answer": "перевод в стационар по \"112\"",
+      "sort": 47
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-коломяжском",
+      "category": "Дополнительно",
+      "question": "Что ещё важно знать координатору",
+      "answer": null,
+      "sort": 48
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Седация и наркоз",
+      "question": "Седация доступна",
+      "answer": "да",
+      "sort": 0
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Седация и наркоз",
+      "question": "Вид седации (препарат, методика)",
+      "answer": "в/в пропофол",
+      "sort": 1
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Седация и наркоз",
+      "question": "Общий наркоз с интубацией для сложных случаев",
+      "answer": "нет",
+      "sort": 2
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Седация и наркоз",
+      "question": "ЭГДС и колоноскопия одномоментно за одну седацию",
+      "answer": "да",
+      "sort": 3
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Седация и наркоз",
+      "question": "Нужен сопровождающий",
+      "answer": "не обязательно",
+      "sort": 4
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Седация и наркоз",
+      "question": "Какие анализы нужны перед седацией и срок их годности",
+      "answer": "ОАК, ВИЧ, сифилис, гепатиты — 14 дней",
+      "sort": 5
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Седация и наркоз",
+      "question": "Нужна ЭКГ (укажите срок годности)",
+      "answer": "да — 14 дней",
+      "sort": 6
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Седация и наркоз",
+      "question": "Осмотр анестезиолога до процедуры",
+      "answer": "в день процедуры",
+      "sort": 7
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "ЭГДС без седации (местная анестезия) выполняется",
+      "answer": "да",
+      "sort": 8
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Трансназальная ЭГДС (через нос)",
+      "answer": "нет",
+      "sort": 9
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Есть тонкий / педиатрический эндоскоп для тревожных пациентов",
+      "answer": "да",
+      "sort": 10
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Экспресс-тест на H. pylori при ЭГДС",
+      "answer": "за доплату",
+      "sort": 11
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия при ЭГДС",
+      "answer": "за доплату",
+      "sort": 12
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия по протоколу OLGA / OLGIM (оценка атрофии)",
+      "answer": "да",
+      "sort": 13
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Удаление полипов желудка и пищевода",
+      "answer": "нет",
+      "sort": 14
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Средняя длительность ЭГДС, минут",
+      "answer": "15",
+      "sort": 15
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Особенности и ограничения по ЭГДС",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 16
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Колоноскопия без седации выполняется",
+      "answer": "да",
+      "sort": 17
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Седация при колоноскопии обязательна",
+      "answer": "нет",
+      "sort": 18
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Инсуффляция CO2 вместо воздуха",
+      "answer": "да",
+      "sort": 19
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Осмотр терминального отдела подвздошной кишки (илеоскопия)",
+      "answer": "да",
+      "sort": 20
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Препарат для подготовки, который рекомендуете",
+      "answer": "Мовипреп",
+      "sort": 21
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Выдаёте препарат для подготовки в клинике",
+      "answer": "нет",
+      "sort": 22
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть памятка по подготовке для пациента (пришлёте / ссылка)",
+      "answer": "да, PDF",
+      "sort": 23
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Биопсия при колоноскопии",
+      "answer": "за доплату",
+      "sort": 24
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Полипэктомия выполняется амбулаторно",
+      "answer": "да",
+      "sort": 25
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Максимальный размер образования амбулаторно, мм",
+      "answer": "до 15 мм",
+      "sort": 26
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Удаляете полип сразу при диагностической колоноскопии",
+      "answer": "зависит от размера",
+      "sort": 27
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть дневной стационар для наблюдения после удаления",
+      "answer": "да",
+      "sort": 28
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Порядок отмены антикоагулянтов / антиагрегантов",
+      "answer": "отмена за 5 дней по согласованию",
+      "sort": 29
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Средняя длительность колоноскопии, минут",
+      "answer": "30",
+      "sort": 30
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Особенности и ограничения по колоноскопии",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 31
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Гистология",
+      "question": "Гистологическое исследование",
+      "answer": "за доплату",
+      "sort": 32
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Гистология",
+      "question": "Своя лаборатория или подрядчик",
+      "answer": "подрядчик",
+      "sort": 33
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Гистология",
+      "question": "Срок готовности заключения, рабочих дней",
+      "answer": "7",
+      "sort": 34
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «ЭГДС + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 35
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «колоноскопия + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 36
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Оборудование",
+      "question": "Производитель и класс эндоскопов",
+      "answer": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "sort": 37
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Оборудование",
+      "question": "NBI / хромоскопия",
+      "answer": "да",
+      "sort": 38
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Оборудование",
+      "question": "Увеличительная эндоскопия",
+      "answer": "да",
+      "sort": 39
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Оборудование",
+      "question": "Обработка эндоскопов в моечно-дезинфекционных машинах",
+      "answer": "да",
+      "sort": 40
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Оборудование",
+      "question": "Видеозапись исследования выдаётся пациенту",
+      "answer": "да",
+      "sort": 41
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Ограничения",
+      "question": "ЭГДС детям с какого возраста",
+      "answer": "с 14 лет",
+      "sort": 42
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Ограничения",
+      "question": "Колоноскопия детям с какого возраста",
+      "answer": "не выполняем",
+      "sort": 43
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Ограничения",
+      "question": "Ограничение по весу пациента, кг",
+      "answer": "150",
+      "sort": 44
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Ограничения",
+      "question": "Что является отказом (сопутствующая патология, беременность и т.п.)",
+      "answer": "декомпенсация ХСН, беременность, маломобильная группа населения",
+      "sort": 45
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Ограничения",
+      "question": "Стационар и реанимация в этом же здании",
+      "answer": "нет",
+      "sort": 46
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Ограничения",
+      "question": "Порядок действий при осложнении во время процедуры",
+      "answer": "перевод в стационар по \"112\"",
+      "sort": 47
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-гражданском",
+      "category": "Дополнительно",
+      "question": "Что ещё важно знать координатору",
+      "answer": null,
+      "sort": 48
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Седация и наркоз",
+      "question": "Седация доступна",
+      "answer": "да",
+      "sort": 0
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Седация и наркоз",
+      "question": "Вид седации (препарат, методика)",
+      "answer": "в/в пропофол",
+      "sort": 1
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Седация и наркоз",
+      "question": "Общий наркоз с интубацией для сложных случаев",
+      "answer": "нет",
+      "sort": 2
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Седация и наркоз",
+      "question": "ЭГДС и колоноскопия одномоментно за одну седацию",
+      "answer": "да",
+      "sort": 3
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Седация и наркоз",
+      "question": "Нужен сопровождающий",
+      "answer": "не обязательно",
+      "sort": 4
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Седация и наркоз",
+      "question": "Какие анализы нужны перед седацией и срок их годности",
+      "answer": "ОАК, ВИЧ, сифилис, гепатиты — 14 дней",
+      "sort": 5
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Седация и наркоз",
+      "question": "Нужна ЭКГ (укажите срок годности)",
+      "answer": "да — 14 дней",
+      "sort": 6
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Седация и наркоз",
+      "question": "Осмотр анестезиолога до процедуры",
+      "answer": "в день процедуры",
+      "sort": 7
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "ЭГДС без седации (местная анестезия) выполняется",
+      "answer": "да",
+      "sort": 8
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Трансназальная ЭГДС (через нос)",
+      "answer": "нет",
+      "sort": 9
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Есть тонкий / педиатрический эндоскоп для тревожных пациентов",
+      "answer": "да",
+      "sort": 10
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Экспресс-тест на H. pylori при ЭГДС",
+      "answer": "за доплату",
+      "sort": 11
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия при ЭГДС",
+      "answer": "за доплату",
+      "sort": 12
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия по протоколу OLGA / OLGIM (оценка атрофии)",
+      "answer": "да",
+      "sort": 13
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Удаление полипов желудка и пищевода",
+      "answer": "нет",
+      "sort": 14
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Средняя длительность ЭГДС, минут",
+      "answer": "15",
+      "sort": 15
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Особенности и ограничения по ЭГДС",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 16
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Колоноскопия без седации выполняется",
+      "answer": "да",
+      "sort": 17
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Седация при колоноскопии обязательна",
+      "answer": "нет",
+      "sort": 18
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Инсуффляция CO2 вместо воздуха",
+      "answer": "да",
+      "sort": 19
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Осмотр терминального отдела подвздошной кишки (илеоскопия)",
+      "answer": "да",
+      "sort": 20
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Препарат для подготовки, который рекомендуете",
+      "answer": "Мовипреп",
+      "sort": 21
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Выдаёте препарат для подготовки в клинике",
+      "answer": "нет",
+      "sort": 22
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть памятка по подготовке для пациента (пришлёте / ссылка)",
+      "answer": "да, PDF",
+      "sort": 23
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Биопсия при колоноскопии",
+      "answer": "за доплату",
+      "sort": 24
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Полипэктомия выполняется амбулаторно",
+      "answer": "да",
+      "sort": 25
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Максимальный размер образования амбулаторно, мм",
+      "answer": "до 15 мм",
+      "sort": 26
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Удаляете полип сразу при диагностической колоноскопии",
+      "answer": "зависит от размера",
+      "sort": 27
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть дневной стационар для наблюдения после удаления",
+      "answer": "да",
+      "sort": 28
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Порядок отмены антикоагулянтов / антиагрегантов",
+      "answer": "отмена за 5 дней по согласованию",
+      "sort": 29
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Средняя длительность колоноскопии, минут",
+      "answer": "30",
+      "sort": 30
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Особенности и ограничения по колоноскопии",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 31
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Гистология",
+      "question": "Гистологическое исследование",
+      "answer": "за доплату",
+      "sort": 32
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Гистология",
+      "question": "Своя лаборатория или подрядчик",
+      "answer": "подрядчик",
+      "sort": 33
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Гистология",
+      "question": "Срок готовности заключения, рабочих дней",
+      "answer": "7",
+      "sort": 34
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «ЭГДС + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 35
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «колоноскопия + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 36
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Оборудование",
+      "question": "Производитель и класс эндоскопов",
+      "answer": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "sort": 37
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Оборудование",
+      "question": "NBI / хромоскопия",
+      "answer": "да",
+      "sort": 38
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Оборудование",
+      "question": "Увеличительная эндоскопия",
+      "answer": "да",
+      "sort": 39
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Оборудование",
+      "question": "Обработка эндоскопов в моечно-дезинфекционных машинах",
+      "answer": "да",
+      "sort": 40
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Оборудование",
+      "question": "Видеозапись исследования выдаётся пациенту",
+      "answer": "да",
+      "sort": 41
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Ограничения",
+      "question": "ЭГДС детям с какого возраста",
+      "answer": "с 14 лет",
+      "sort": 42
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Ограничения",
+      "question": "Колоноскопия детям с какого возраста",
+      "answer": "не выполняем",
+      "sort": 43
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Ограничения",
+      "question": "Ограничение по весу пациента, кг",
+      "answer": "150",
+      "sort": 44
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Ограничения",
+      "question": "Что является отказом (сопутствующая патология, беременность и т.п.)",
+      "answer": "декомпенсация ХСН, беременность, маломобильная группа населения",
+      "sort": 45
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Ограничения",
+      "question": "Стационар и реанимация в этом же здании",
+      "answer": "нет",
+      "sort": 46
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Ограничения",
+      "question": "Порядок действий при осложнении во время процедуры",
+      "answer": "перевод в стационар по \"112\"",
+      "sort": 47
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-петербурга",
+      "category": "Дополнительно",
+      "question": "Что ещё важно знать координатору",
+      "answer": null,
+      "sort": 48
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Седация и наркоз",
+      "question": "Седация доступна",
+      "answer": "да",
+      "sort": 0
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Седация и наркоз",
+      "question": "Вид седации (препарат, методика)",
+      "answer": "в/в пропофол",
+      "sort": 1
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Седация и наркоз",
+      "question": "Общий наркоз с интубацией для сложных случаев",
+      "answer": "нет",
+      "sort": 2
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Седация и наркоз",
+      "question": "ЭГДС и колоноскопия одномоментно за одну седацию",
+      "answer": "да",
+      "sort": 3
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Седация и наркоз",
+      "question": "Нужен сопровождающий",
+      "answer": "не обязательно",
+      "sort": 4
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Седация и наркоз",
+      "question": "Какие анализы нужны перед седацией и срок их годности",
+      "answer": "ОАК, ВИЧ, сифилис, гепатиты — 14 дней",
+      "sort": 5
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Седация и наркоз",
+      "question": "Нужна ЭКГ (укажите срок годности)",
+      "answer": "да — 14 дней",
+      "sort": 6
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Седация и наркоз",
+      "question": "Осмотр анестезиолога до процедуры",
+      "answer": "в день процедуры",
+      "sort": 7
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "ЭГДС без седации (местная анестезия) выполняется",
+      "answer": "да",
+      "sort": 8
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Трансназальная ЭГДС (через нос)",
+      "answer": "нет",
+      "sort": 9
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Есть тонкий / педиатрический эндоскоп для тревожных пациентов",
+      "answer": "да",
+      "sort": 10
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Экспресс-тест на H. pylori при ЭГДС",
+      "answer": "за доплату",
+      "sort": 11
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия при ЭГДС",
+      "answer": "за доплату",
+      "sort": 12
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия по протоколу OLGA / OLGIM (оценка атрофии)",
+      "answer": "да",
+      "sort": 13
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Удаление полипов желудка и пищевода",
+      "answer": "нет",
+      "sort": 14
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Средняя длительность ЭГДС, минут",
+      "answer": "15",
+      "sort": 15
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Особенности и ограничения по ЭГДС",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 16
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Колоноскопия без седации выполняется",
+      "answer": "да",
+      "sort": 17
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Седация при колоноскопии обязательна",
+      "answer": "нет",
+      "sort": 18
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Инсуффляция CO2 вместо воздуха",
+      "answer": "да",
+      "sort": 19
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Осмотр терминального отдела подвздошной кишки (илеоскопия)",
+      "answer": "да",
+      "sort": 20
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Препарат для подготовки, который рекомендуете",
+      "answer": "Мовипреп",
+      "sort": 21
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Выдаёте препарат для подготовки в клинике",
+      "answer": "нет",
+      "sort": 22
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть памятка по подготовке для пациента (пришлёте / ссылка)",
+      "answer": "да, PDF",
+      "sort": 23
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Биопсия при колоноскопии",
+      "answer": "за доплату",
+      "sort": 24
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Полипэктомия выполняется амбулаторно",
+      "answer": "да",
+      "sort": 25
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Максимальный размер образования амбулаторно, мм",
+      "answer": "до 15 мм",
+      "sort": 26
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Удаляете полип сразу при диагностической колоноскопии",
+      "answer": "зависит от размера",
+      "sort": 27
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть дневной стационар для наблюдения после удаления",
+      "answer": "да",
+      "sort": 28
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Порядок отмены антикоагулянтов / антиагрегантов",
+      "answer": "отмена за 5 дней по согласованию",
+      "sort": 29
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Средняя длительность колоноскопии, минут",
+      "answer": "30",
+      "sort": 30
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Особенности и ограничения по колоноскопии",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 31
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Гистология",
+      "question": "Гистологическое исследование",
+      "answer": "за доплату",
+      "sort": 32
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Гистология",
+      "question": "Своя лаборатория или подрядчик",
+      "answer": "подрядчик",
+      "sort": 33
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Гистология",
+      "question": "Срок готовности заключения, рабочих дней",
+      "answer": "7",
+      "sort": 34
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «ЭГДС + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 35
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «колоноскопия + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 36
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Оборудование",
+      "question": "Производитель и класс эндоскопов",
+      "answer": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "sort": 37
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Оборудование",
+      "question": "NBI / хромоскопия",
+      "answer": "да",
+      "sort": 38
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Оборудование",
+      "question": "Увеличительная эндоскопия",
+      "answer": "да",
+      "sort": 39
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Оборудование",
+      "question": "Обработка эндоскопов в моечно-дезинфекционных машинах",
+      "answer": "да",
+      "sort": 40
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Оборудование",
+      "question": "Видеозапись исследования выдаётся пациенту",
+      "answer": "да",
+      "sort": 41
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Ограничения",
+      "question": "ЭГДС детям с какого возраста",
+      "answer": "с 14 лет",
+      "sort": 42
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Ограничения",
+      "question": "Колоноскопия детям с какого возраста",
+      "answer": "не выполняем",
+      "sort": 43
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Ограничения",
+      "question": "Ограничение по весу пациента, кг",
+      "answer": "150",
+      "sort": 44
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Ограничения",
+      "question": "Что является отказом (сопутствующая патология, беременность и т.п.)",
+      "answer": "декомпенсация ХСН, беременность, маломобильная группа населения",
+      "sort": 45
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Ограничения",
+      "question": "Стационар и реанимация в этом же здании",
+      "answer": "нет",
+      "sort": 46
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Ограничения",
+      "question": "Порядок действий при осложнении во время процедуры",
+      "answer": "перевод в стационар по \"112\"",
+      "sort": 47
+    },
+    {
+      "clinicId": "cl-ооо-первая-семейная-клиника-на-международной",
+      "category": "Дополнительно",
+      "question": "Что ещё важно знать координатору",
+      "answer": null,
+      "sort": 48
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Седация и наркоз",
+      "question": "Седация доступна",
+      "answer": "да",
+      "sort": 0
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Седация и наркоз",
+      "question": "Вид седации (препарат, методика)",
+      "answer": "в/в пропофол",
+      "sort": 1
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Седация и наркоз",
+      "question": "Общий наркоз с интубацией для сложных случаев",
+      "answer": "нет",
+      "sort": 2
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Седация и наркоз",
+      "question": "ЭГДС и колоноскопия одномоментно за одну седацию",
+      "answer": "да",
+      "sort": 3
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Седация и наркоз",
+      "question": "Нужен сопровождающий",
+      "answer": "не обязательно",
+      "sort": 4
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Седация и наркоз",
+      "question": "Какие анализы нужны перед седацией и срок их годности",
+      "answer": "ОАК, ВИЧ, сифилис, гепатиты — 14 дней",
+      "sort": 5
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Седация и наркоз",
+      "question": "Нужна ЭКГ (укажите срок годности)",
+      "answer": "да — 14 дней",
+      "sort": 6
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Седация и наркоз",
+      "question": "Осмотр анестезиолога до процедуры",
+      "answer": "в день процедуры",
+      "sort": 7
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "ЭГДС без седации (местная анестезия) выполняется",
+      "answer": "да",
+      "sort": 8
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Трансназальная ЭГДС (через нос)",
+      "answer": "нет",
+      "sort": 9
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Есть тонкий / педиатрический эндоскоп для тревожных пациентов",
+      "answer": "да",
+      "sort": 10
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Экспресс-тест на H. pylori при ЭГДС",
+      "answer": "за доплату",
+      "sort": 11
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия при ЭГДС",
+      "answer": "за доплату",
+      "sort": 12
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Биопсия по протоколу OLGA / OLGIM (оценка атрофии)",
+      "answer": "да",
+      "sort": 13
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Удаление полипов желудка и пищевода",
+      "answer": "нет",
+      "sort": 14
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Средняя длительность ЭГДС, минут",
+      "answer": "15",
+      "sort": 15
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО ЭГДС",
+      "question": "Особенности и ограничения по ЭГДС",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 16
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Колоноскопия без седации выполняется",
+      "answer": "да",
+      "sort": 17
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Седация при колоноскопии обязательна",
+      "answer": "нет",
+      "sort": 18
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Инсуффляция CO2 вместо воздуха",
+      "answer": "да",
+      "sort": 19
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Осмотр терминального отдела подвздошной кишки (илеоскопия)",
+      "answer": "да",
+      "sort": 20
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Препарат для подготовки, который рекомендуете",
+      "answer": "Мовипреп",
+      "sort": 21
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Выдаёте препарат для подготовки в клинике",
+      "answer": "нет",
+      "sort": 22
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть памятка по подготовке для пациента (пришлёте / ссылка)",
+      "answer": "да, PDF",
+      "sort": 23
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Биопсия при колоноскопии",
+      "answer": "за доплату",
+      "sort": 24
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Полипэктомия выполняется амбулаторно",
+      "answer": "да",
+      "sort": 25
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Максимальный размер образования амбулаторно, мм",
+      "answer": "до 15 мм",
+      "sort": 26
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Удаляете полип сразу при диагностической колоноскопии",
+      "answer": "зависит от размера",
+      "sort": 27
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Есть дневной стационар для наблюдения после удаления",
+      "answer": "да",
+      "sort": 28
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Порядок отмены антикоагулянтов / антиагрегантов",
+      "answer": "отмена за 5 дней по согласованию",
+      "sort": 29
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Средняя длительность колоноскопии, минут",
+      "answer": "30",
+      "sort": 30
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "ТОЛЬКО КОЛОНОСКОПИЯ",
+      "question": "Особенности и ограничения по колоноскопии",
+      "answer": "до 80 лет, самостоятельное передвижение, не должен быть лежачим",
+      "sort": 31
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Гистология",
+      "question": "Гистологическое исследование",
+      "answer": "за доплату",
+      "sort": 32
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Гистология",
+      "question": "Своя лаборатория или подрядчик",
+      "answer": "подрядчик",
+      "sort": 33
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Гистология",
+      "question": "Срок готовности заключения, рабочих дней",
+      "answer": "7",
+      "sort": 34
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «ЭГДС + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 35
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Стоимость",
+      "question": "Есть пакетная цена «колоноскопия + седация + биопсия + гистология»",
+      "answer": "нет",
+      "sort": 36
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Оборудование",
+      "question": "Производитель и класс эндоскопов",
+      "answer": "Pentax 3000; Pentax 5000; Aohua AQ-200",
+      "sort": 37
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Оборудование",
+      "question": "NBI / хромоскопия",
+      "answer": "да",
+      "sort": 38
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Оборудование",
+      "question": "Увеличительная эндоскопия",
+      "answer": "да",
+      "sort": 39
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Оборудование",
+      "question": "Обработка эндоскопов в моечно-дезинфекционных машинах",
+      "answer": "да",
+      "sort": 40
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Оборудование",
+      "question": "Видеозапись исследования выдаётся пациенту",
+      "answer": "да",
+      "sort": 41
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Ограничения",
+      "question": "ЭГДС детям с какого возраста",
+      "answer": "с 14 лет",
+      "sort": 42
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Ограничения",
+      "question": "Колоноскопия детям с какого возраста",
+      "answer": "не выполняем",
+      "sort": 43
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Ограничения",
+      "question": "Ограничение по весу пациента, кг",
+      "answer": "150",
+      "sort": 44
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Ограничения",
+      "question": "Что является отказом (сопутствующая патология, беременность и т.п.)",
+      "answer": "декомпенсация ХСН, беременность, маломобильная группа населения",
+      "sort": 45
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Ограничения",
+      "question": "Стационар и реанимация в этом же здании",
+      "answer": "нет",
+      "sort": 46
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Ограничения",
+      "question": "Порядок действий при осложнении во время процедуры",
+      "answer": "перевод в стационар по \"112\"",
+      "sort": 47
+    },
+    {
+      "clinicId": "cl-первая-семейная-клиника-на-ленинском",
+      "category": "Дополнительно",
+      "question": "Что ещё важно знать координатору",
+      "answer": null,
+      "sort": 48
+    }
+  ]
+}
