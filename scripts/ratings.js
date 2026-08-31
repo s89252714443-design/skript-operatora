@@ -84,10 +84,18 @@ async function fetchRating(url) {
   const parsed = parseRating(html)
   if (!parsed) throw new Error('на странице не нашлось рейтинга (разметка изменилась?)')
 
-  // Яндекс возвращает адрес с хвостом из utm и координат — храним только
-  // сам путь до карточки, его и открывает оператор
-  const clean = new URL(res.url)
-  return { ...parsed, resolvedUrl: clean.origin + clean.pathname }
+  // Яндекс возвращает адрес с хвостом из utm и координат. Обычно карточка
+  // лежит прямо в пути (/maps/org/…/id/) — тогда хвост можно срезать.
+  // Но короткая ссылка может развернуться в страницу города, где организация
+  // указана только в параметрах: срезав их, мы получили бы карту Петербурга
+  // вместо клиники. В таком случае оставляем исходную короткую ссылку —
+  // она ведёт куда надо.
+  const resolved = new URL(res.url)
+  const resolvedUrl = resolved.pathname.includes('/org/')
+    ? resolved.origin + resolved.pathname
+    : url
+
+  return { ...parsed, resolvedUrl }
 }
 
 async function main() {
@@ -125,7 +133,7 @@ async function main() {
       const count =
         reviews == null ? 'отзывы не посчитались' : `${reviews} ${plural(reviews, 'отзыв', 'отзыва', 'отзывов')}`
       const badge = award ? ` · 🏆 ${award.name}${award.year ? ' ' + award.year : ''}` : ''
-      console.log(`  ✓ ${name}: ${String(rating).replace('.', ',')} · ${count}${badge}`)
+      console.log(`  ✓ ${name}: ${rating.toFixed(1).replace('.', ',')} · ${count}${badge}`)
     } catch (e) {
       failures.push(`${name}: ${e.message}`)
       const old = items[clinicId]

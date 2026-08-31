@@ -100,7 +100,7 @@ function ratingLine(rating, todayIso) {
     }
   }
 
-  const value = String(rating.rating).replace('.', ',')
+  const value = rating.rating.toFixed(1).replace('.', ',')
   const reviews =
     rating.reviews != null
       ? ` — ${rating.reviews} ${plural(rating.reviews, 'отзыв', 'отзыва', 'отзывов')}`

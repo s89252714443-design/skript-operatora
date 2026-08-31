@@ -1,6 +1,6 @@
 {
   "_comment": "Рейтинги с Яндекс.Карт. Собирает npm run ratings. Файл читается приложением на лету, пересборка не нужна.",
-  "updatedAt": "2026-08-31T09:41:16.666Z",
+  "updatedAt": "2026-08-31T17:41:18.788Z",
   "items": {
     "cl-ооо-скандинавский-центр-здоровья": {
       "rating": 4.9,
@@ -19,6 +19,17 @@
       },
       "url": "https://yandex.ru/maps/-/CTTUYK7c",
       "resolvedUrl": "https://yandex.ru/maps/org/pervaya_semeynaya_klinika_peterburga/1257349192/",
+      "checkedAt": "2026-08-31"
+    },
+    "cl-ооо-клиника-будь-здоров-г-санкт-петербург": {
+      "rating": 5,
+      "reviews": 1822,
+      "award": {
+        "name": "Хорошее место",
+        "year": 2026
+      },
+      "url": "https://yandex.com/maps/-/CTTFeKjH",
+      "resolvedUrl": "https://yandex.com/maps/-/CTTFeKjH",
       "checkedAt": "2026-08-31"
     }
   }

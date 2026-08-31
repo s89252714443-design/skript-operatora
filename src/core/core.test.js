@@ -985,3 +985,22 @@ test('данные: цену нигде не показываем — ни в с
     assert.ok(!/formatMoney/.test(code), `в ${file} вернулся вывод суммы`)
   }
 })
+
+test('рейтинг: показываем с одним знаком, как пишет Яндекс', () => {
+  // Яндекс пишет «Рейтинг 5,0» — если показать «5», оператор и пациент
+  // увидят разные числа
+  assert.equal(parseRating('<meta property="og:description" content="⭐️ Рейтинг 5,0. 1822 отзыва">').rating, 5)
+  const real = read('public/ratings.json')
+  for (const item of Object.values(real.items)) {
+    assert.match(item.rating.toFixed(1), /^\d\.\d$/)
+  }
+})
+
+test('данные: ссылка на карточку ведёт на организацию, а не на город', () => {
+  const real = read('public/ratings.json')
+  for (const [clinicId, item] of Object.entries(real.items)) {
+    const link = item.resolvedUrl ?? item.url
+    const ok = /\/maps\/org\//.test(link) || /\/maps\/-\//.test(link)
+    assert.ok(ok, `у ${clinicId} ссылка ведёт не на карточку: ${link}`)
+  }
+})

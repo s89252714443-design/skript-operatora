@@ -17,7 +17,9 @@ export default function YandexRating({ rating, compact }) {
   const days = Math.round((Date.parse(today) - Date.parse(rating.checkedAt)) / 86400000)
   const stale = days > STALE_DAYS
 
-  const value = String(rating.rating).replace('.', ',')
+  // Яндекс пишет «5,0», а не «5» — показываем так же, иначе оператор
+  // и пациент видят разные числа
+  const value = rating.rating.toFixed(1).replace('.', ',')
   const checked = `проверено ${formatDay(rating.checkedAt)}`
 
   // В списке места мало: только звезда, число и количество отзывов. Ссылку
