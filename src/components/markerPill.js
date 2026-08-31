@@ -1,16 +1,17 @@
-// Внешний вид точки на карте. Раньше на метке стояла цена, но её мы больше
-// нигде не показываем. Пишем станцию метро: у сети четыре филиала подряд
-// начинаются одинаково («Первая семейная клиника на…»), и по обрезанному
-// названию их не различить, а станции у всех разные. Полное название
-// и адрес видны в подсказке при наведении.
+// Внешний вид точки на карте: название клиники целиком.
+//
+// Обрезать его нельзя — у сети четыре филиала подряд начинаются одинаково
+// («Первая семейная клиника на…»), и по обрезанной метке их не различить:
+// отличается как раз хвост. Поэтому метка переносится на две строки,
+// ширина ограничена, а не текст. Станция и расстояние есть в карточке
+// справа, адрес — в подсказке при наведении.
 
 // data-clinic нужен для делегирования клика: у HTML-меток разных карт
 // свои события, а обработчик на контейнере работает везде одинаково.
-const MAX_LABEL = 24
+const MAX_WIDTH_PX = 170
+const MAX_LINES = 2
 
 export function pillHtml(row, index, active) {
-  const name = row.ownStation?.name ?? row.clinic.name
-  const label = name.length > MAX_LABEL ? name.slice(0, MAX_LABEL - 1).trimEnd() + '…' : name
   const top = index === 0
   const bg = active ? '#1d4ed8' : top ? '#0f172a' : '#ffffff'
   const fg = active || top ? '#ffffff' : '#0f172a'
@@ -18,12 +19,13 @@ export function pillHtml(row, index, active) {
 
   return `<div data-clinic="${escapeHtml(row.key)}" style="
       transform: translate(-50%, -120%);
-      display:inline-flex; align-items:center;
-      white-space:nowrap; padding:3px 8px; border-radius:999px;
+      display:-webkit-box; -webkit-box-orient:vertical; -webkit-line-clamp:${MAX_LINES};
+      overflow:hidden; text-align:center; max-width:${MAX_WIDTH_PX}px;
+      padding:3px 8px; border-radius:12px;
       background:${bg}; color:${fg}; border:2px solid ${border};
-      font: 600 12px/1.2 Inter, 'Segoe UI', system-ui, sans-serif;
+      font: 600 12px/1.25 Inter, 'Segoe UI', system-ui, sans-serif;
       box-shadow: 0 2px 6px rgba(15,23,42,.25); cursor:pointer;">
-      ${top ? '★ ' : ''}${escapeHtml(label)}
+      ${top ? '★ ' : ''}${escapeHtml(row.clinic.name)}
     </div>`
 }
 
