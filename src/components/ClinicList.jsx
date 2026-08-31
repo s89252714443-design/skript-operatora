@@ -61,6 +61,11 @@ function ClinicCard({ row, labels, rating, selected, onSelect, onOpen, todayIso 
       <div className="flex items-start justify-between gap-3">
         <div className="min-w-0">
           <div className="font-semibold text-slate-900">{clinic.name}</div>
+          {/* Адрес прямо в списке: у сети несколько филиалов, и по одной
+              станции оператор не всегда понимает, какой именно перед ним */}
+          {clinic.address && (
+            <div className="mt-0.5 text-sm leading-snug text-slate-500">{clinic.address}</div>
+          )}
           {station && (
             <div className="mt-0.5 flex items-center gap-1.5 text-sm text-slate-500">
               <span className="h-2 w-2 shrink-0 rounded-full" style={{ background: station.color }} />

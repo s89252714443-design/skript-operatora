@@ -197,14 +197,6 @@ function DoctorCard({ doctor, active, onSelect }) {
                     {new Intl.NumberFormat('ru-RU').format(doctor.proceduresCount)} процедур
                   </Chip>
                 )}
-                {doctor.forAnxious && (
-                  <Chip
-                    tone="emerald"
-                    title="Клиника отметила врача как подходящего тревожным пациентам"
-                  >
-                    для тревожных
-                  </Chip>
-                )}
               </div>
               <div className="text-sm text-slate-500">{doctor.specialty}</div>
             </div>
