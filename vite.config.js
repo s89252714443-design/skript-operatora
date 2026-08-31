@@ -89,8 +89,10 @@ function overridesApi() {
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), overridesApi()],
-  // Привязка к 127.0.0.1, а не к localhost: на этой машине «localhost»
-  // резолвится сначала в ::1, а IPv6-loopback не отвечает — страница не открывалась.
-  // Чтобы открыть прототип с телефона в той же сети, поменяйте host на true.
-  server: { host: '127.0.0.1', port: 5173, strictPort: true },
+  // host: true — сервер слушает все интерфейсы, а не только этот компьютер:
+  // коллеги в той же сети открывают прототип по адресу вида
+  // http://192.168.0.161:5173. Раньше стояло 127.0.0.1, потому что «localhost»
+  // на этой машине резолвится в ::1, а IPv6-loopback не отвечает — при host: true
+  // это уже не мешает, страница открывается и локально.
+  server: { host: true, port: 5173, strictPort: true },
 })
