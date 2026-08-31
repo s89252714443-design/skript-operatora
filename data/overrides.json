@@ -55,6 +55,10 @@
   "clinicYandex": {
     "cl-ооо-скандинавский-центр-здоровья": "https://yandex.ru/maps/-/CTH0bVM7",
     "cl-ооо-первая-семейная-клиника-петербурга": "https://yandex.ru/maps/-/CTTUYK7c",
-    "cl-ооо-клиника-будь-здоров-г-санкт-петербург": "https://yandex.com/maps/-/CTTFeKjH"
+    "cl-ооо-клиника-будь-здоров-г-санкт-петербург": "https://yandex.com/maps/-/CTTFeKjH",
+    "cl-ооо-первая-семейная-клиника-на-коломяжском": "https://yandex.com/maps/-/CTTFmKpY",
+    "cl-ооо-первая-семейная-клиника-на-гражданском": "https://yandex.com/maps/-/CTTFq4lQ",
+    "cl-ооо-первая-семейная-клиника-на-международной": "https://yandex.com/maps/-/CTTFqGkb",
+    "cl-первая-семейная-клиника-на-ленинском": "https://yandex.com/maps/-/CTTFu4nE"
   }
 }
