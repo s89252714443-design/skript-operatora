@@ -6,6 +6,7 @@ import catalogRaw from '../data/catalog.json'
 import contentRaw from '../data/content.json'
 import overrides from '../data/overrides.json'
 
+import { assetUrl } from './core/assets.js'
 import { buildGraph } from './core/metro.js'
 import { applyOverrides, applyContentOverrides } from './core/overrides.js'
 import { buildPlaces, resolveOrigin, originSummary, knowsPatientLocation } from './core/places.js'
@@ -65,7 +66,7 @@ export default function App() {
   // Рейтинги с Яндекс.Карт лежат отдельным файлом, его раз в сутки обновляет
   // npm run ratings. Читаем на лету: пересобирать приложение ради числа не надо.
   useEffect(() => {
-    fetch('/ratings.json')
+    fetch(assetUrl('/ratings.json'))
       .then((r) => (r.ok ? r.json() : null))
       .then((data) => data?.items && setRatings(data.items))
       .catch(() => {}) // файла может не быть — это не повод ломать экран

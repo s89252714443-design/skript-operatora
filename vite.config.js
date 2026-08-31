@@ -1,4 +1,4 @@
-import { writeFileSync, readFileSync } from 'node:fs'
+import { writeFileSync, readFileSync, copyFileSync } from 'node:fs'
 import { resolve } from 'node:path'
 
 import { defineConfig } from 'vite'
@@ -27,6 +27,28 @@ const ALLOWED_KEYS = new Set([
   'content',
 ])
 const MAX_BODY_BYTES = 2 * 1024 * 1024
+
+// MapLibre вычисляет адрес своего воркера сам: new URL('./maplibre-gl-worker.mjs',
+// import.meta.url) рядом со своим чанком. Vite такую ссылку не видит и файл
+// в сборку не кладёт — карта в собранной версии просто не запускается,
+// а в консоли только «text/html вместо скрипта». Задать адрес через
+// setWorkerUrl мало: maplibre всё равно обращается к своему имени.
+// Поэтому кладём файл ровно туда и ровно под тем именем, которое он ищет.
+function maplibreWorker() {
+  return {
+    name: 'skript-maplibre-worker',
+    apply: 'build',
+    closeBundle() {
+      // воркер тянет за собой общий модуль — без него он падает уже в браузере
+      for (const name of ['maplibre-gl-worker.mjs', 'maplibre-gl-shared.mjs']) {
+        copyFileSync(
+          resolve(process.cwd(), 'node_modules/maplibre-gl/dist', name),
+          resolve(process.cwd(), 'dist/assets', name)
+        )
+      }
+    },
+  }
+}
 
 function overridesApi() {
   return {
@@ -87,12 +109,17 @@ function overridesApi() {
   }
 }
 
-export default defineConfig({
-  plugins: [react(), tailwindcss(), overridesApi()],
+// На GitHub Pages сайт живёт в подпапке с именем репозитория, локально —
+// в корне. Поэтому base задаём только для сборки: иначе дев-сервер тоже
+// уехал бы на /skript-operatora/ и привычный localhost:5173 перестал бы
+// открываться.
+export default defineConfig(({ command }) => ({
+  base: command === 'build' ? '/skript-operatora/' : '/',
+  plugins: [react(), tailwindcss(), overridesApi(), maplibreWorker()],
   // host: true — сервер слушает все интерфейсы, а не только этот компьютер:
   // коллеги в той же сети открывают прототип по адресу вида
   // http://192.168.0.161:5173. Раньше стояло 127.0.0.1, потому что «localhost»
   // на этой машине резолвится в ::1, а IPv6-loopback не отвечает — при host: true
   // это уже не мешает, страница открывается и локально.
   server: { host: true, port: 5173, strictPort: true },
-})
+}))

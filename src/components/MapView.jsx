@@ -80,21 +80,10 @@ export default function MapView({ rows, origin, cityId, selectedKey, onSelect, o
     let onWindowResize = null
     let onContainerClick = null
 
-    Promise.all([
-      import('maplibre-gl'),
-      usePmtiles ? import('pmtiles') : null,
-      // MapLibre собирает адрес своего воркера сам, из import.meta.url. В деве
-      // это работает, а в сборке файла по такому адресу нет: Vite не видит
-      // ссылку и не кладёт воркер в dist — карта молча не запускается.
-      // Импортируем воркер явно, тогда Vite его собирает, а адрес мы задаём
-      // руками через setWorkerUrl.
-      import('maplibre-gl/dist/maplibre-gl-worker.mjs?url'),
-    ])
+    Promise.all([import('maplibre-gl'), usePmtiles ? import('pmtiles') : null])
       // у maplibre-gl нет default-экспорта, берём весь модуль
-      .then(async ([maplibregl, pmtilesMod, worker]) => {
+      .then(async ([maplibregl, pmtilesMod]) => {
         if (cancelled || !boxRef.current || mapRef.current) return
-
-        maplibregl.setWorkerUrl(worker.default)
 
         // протокол pmtiles:// нужен, чтобы MapLibre читал наш статичный файл
         if (pmtilesMod) {

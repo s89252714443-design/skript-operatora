@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react'
 
+import { assetUrl } from '../core/assets.js'
+
 // Фотографии клиники в окне: пациент почти всегда спрашивает «а что там
 // вообще», и оператору проще один раз посмотреть самому, чем пересказывать
 // анкету. Крупный кадр плюс лента превью — листать быстрее, чем скроллить.
@@ -18,7 +20,7 @@ export default function ClinicPhotos({ photos, clinicName }) {
     <div>
       <figure className="overflow-hidden rounded-xl bg-white ring-1 ring-slate-200">
         <img
-          src={current.url}
+          src={assetUrl(current.url)}
           alt={`${clinicName}: ${current.caption ?? 'фотография клиники'}`}
           className="aspect-video max-h-[52vh] w-full bg-slate-100 object-cover"
         />
@@ -40,7 +42,7 @@ export default function ClinicPhotos({ photos, clinicName }) {
               ].join(' ')}
             >
               <img
-                src={p.url}
+                src={assetUrl(p.url)}
                 alt={p.caption ?? ''}
                 className="h-full w-full bg-slate-100 object-cover"
               />
